@@ -1,0 +1,26 @@
+.preview_page {
+	margin: 0 !important;
+	overflow-y: inherit;
+	background-color: #FFFFFF !important;
+	min-width: inherit !important;
+    width: inherit !important;
+}
+.preview_page body {
+	font-family: "Open Sans",sans-serif;
+	overflow-y: scroll !important;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: #FFFFFF !important;
+	min-width: inherit !important;
+    width: inherit !important;
+}
+a {
+	color: #0074A2;
+}
+a:hover {
+	color: #2EA2CC;
+}
+/* Hide the admin bar. */
+#wpadminbar {
+	display: none;
+}

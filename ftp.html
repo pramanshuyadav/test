@@ -1,0 +1,194 @@
+
+<style type="text/css">
+body {
+    background: #ffffff;
+    color: #1f275c;
+    margin: auto;
+    padding: 5px;
+    font-family: arial;
+    font-size: 11px;
+}
+
+.userinput {
+    padding-bottom: 15px;
+}
+
+    .userinput label {
+        float: left;
+        clear: left;
+        padding: 2px 5px 0px 0px;
+    }
+
+    .userinput .red {
+        color: red;
+    }
+
+    .userinput input {
+        float: left;
+        clear: left;
+        margin: 2px 0 0 0;
+    }
+
+.success-box {
+    display: none;
+    border: #99cc66 2px solid;
+    background-color: #ccffcc;
+    padding: 10px;
+    font-weight: bold;
+    width: 420px;
+}
+
+.error-box {
+    display: none;
+    clear: both;
+    font-weight: bold;
+    border: #FF0000 2px solid;
+    background-color: #ffb3b3;
+    padding: 10px;
+    margin: 5px 0;
+    width: 420px;
+}
+
+.info-box {
+    border: #eaeaea 2px solid;
+    background-color: #f9f9f9;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.clear {
+    float: none;
+    clear: both;
+    height: 0;
+}
+
+.webkit #File1 {
+    color: #1f275c;
+}
+
+.webkit #File2 {
+    color: #1f275c;
+}
+
+.webkit #File3 {
+    color: #1f275c;
+}
+
+.webkit #File4 {
+    color: #1f275c;
+}
+
+.webkit #File5 {
+    color: #1f275c;
+}
+
+.webkit #File6 {
+    color: #1f275c;
+}
+
+.webkit #File7 {
+    color: #1f275c;
+}
+
+.webkit #File8 {
+    color: #1f275c;
+}
+
+.webkit #File9 {
+    color: #1f275c;
+}
+
+.webkit #File10 {
+    color: #1f275c;
+}
+</style>
+<script type="text/javascript" src="https://adform.sharefile.com/javascript/require.js"></script>
+<script type="text/javascript" src="https://adform.sharefile.com/javascript/AppConfig.js"></script>
+<script type="text/javascript">
+    require.config({
+        baseUrl: "https://adform.sharefile.com"
+    });
+</script>
+
+                               
+<form id="sfUploadForm" enctype="multipart/form-data" method="post" action="">
+
+<input type="hidden" id="debug" name="debug" value="false" />
+<input type="hidden" id="base" name="base" value="https://adform.sharefile.com" />
+<input type="hidden" id="pid" name="pid" value="rf22936d7fae42bf8" />
+<input type="hidden" id="originalPID" name="originalPID" value="rf22936d7fae42bf8" />
+
+
+<input type="hidden" id="details" name="details" />
+<input type="hidden" id="type" name="type" value="Message" />
+<input type="hidden" id="redirectonsuccess" name="redirectonsuccess" value="" />
+<input type="hidden" id="redirectonerror" name="redirectonerror" value="" />
+<input type="hidden" id="batchID" />
+<input type="hidden" id="authid" />
+<script type="text/javascript">
+/*** DO NOT REMOVE ***/
+var labels = new Array("Email","First Name","Last Name","Company","Phone #"); /*** labels for each textbox ***/
+var fields = new Array("txta06c8d8","txtce1ea76","txtc4bf904","txtff05001","txt84c8742"); /*** textbox inputs respective to the labels ***/
+var validate = new Array("txta06c8d8","txtce1ea76","txtc4bf904","txtff05001"); /*** textbox fields to be validated for user input ***/
+var type = "Message"; /*** "Message" or "Redirect" behaviour on file upload success or failure ***/
+/*** END DO NOT REMOVE ***/
+</script>
+<noscript>
+<style type="text/css">
+#formLoadingContainer {
+display: none;
+}
+</style>
+<div id="noJavaScript">
+You must have JavaScript enabled to use this remote upload form.
+</div>
+</noscript>
+<div id="formLoadingContainer">
+Please wait while the upload form loads...
+</div>
+<div id="formErrorContainer" style="display: none;">
+There was an error loading the upload form. Please contact support.
+We apologize for the inconvenience.
+<br />
+<br />
+</div>
+
+<div id="uploadFormContainer" style="display: none;">
+<input id='apicsrftoken' type='hidden' value='S9K3dGWWOX3GI/B0uHjAaQ=='>
+<div id="uploadProgressIndicator"></div>
+<div class="error-box" id="ErrorMsg">Error. We are sorry, but your file will not upload. Please contact our Customer Service Team for assistance.</div>
+<div class="success-box" id="SuccessMsg">Thank you! Your file has been successfully uploaded.</div>
+
+<div class="info-box" id="InfoMsg">Files cannot exceed 2 GB</div>
+
+<div class="userinput">
+<label>Email: <span class="red">*</span> </label><input name="txta06c8d8" type="text" id="txta06c8d8" maxlength="100" style="width:200px;" /><label>First Name: <span class="red">*</span> </label><input name="txtce1ea76" type="text" id="txtce1ea76" maxlength="100" style="width:200px;" /><label>Last Name: <span class="red">*</span> </label><input name="txtc4bf904" type="text" id="txtc4bf904" maxlength="100" style="width:200px;" /><label>Company: <span class="red">*</span> </label><input name="txtff05001" type="text" id="txtff05001" maxlength="100" style="width:200px;" /><label>Phone #: </label><input name="txt84c8742" type="text" id="txt84c8742" maxlength="100" style="width:200px;" />
+<div class="clear"></div>
+</div>
+<div id="pnlStandardUpload">
+
+<label>File 1:</label><input type="file" id="File1" name="File1" /><br />
+<label>File 2:</label><input type="file" id="File2" name="File2" /><br />
+<label>File 3:</label><input type="file" id="File3" name="File3" /><br />
+<label>File 4:</label><input type="file" id="File4" name="File4" /><br />
+<label>File 5:</label><input type="file" id="File5" name="File5" /><br />
+<br />
+<input type="submit" value="Upload Files" onclick="return remoteUpload.formatUpload();" />
+<script type="text/javascript">
+var request = {
+baseUrl: "https://adform.sharefile.com",
+authId: "ry2r301niarhlx430jafurbu",
+maxFileSizeError: "2 GB",
+maxFileSizeMb: 2048
+};
+require(["javascript/remoteupload/remoteupload"], function(RemoteUpload) {
+remoteUpload = new RemoteUpload(request);
+});
+</script>
+
+</div>
+
+
+</div>
+</form>  
+                              

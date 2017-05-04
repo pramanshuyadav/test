@@ -1,0 +1,4 @@
+[09-Feb-2016 04:41:22 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/adformcreative/public_html/wp-content/themes/meris/index.php on line 7
+[22-Mar-2016 14:54:21 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/adformcreative/public_html/wp-content/themes/meris/index.php on line 7
+[27-Apr-2016 17:18:07 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/adformcreative/public_html/wp-content/themes/meris/index.php on line 7
+[11-May-2016 21:25:01 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/adformcreative/public_html/wp-content/themes/meris/index.php on line 7

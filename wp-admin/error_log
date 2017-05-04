@@ -1,0 +1,10 @@
+[16-Dec-2015 11:13:41 UTC] WordPress database error Table 'adformcr_adformcreative.wp_wplc_chat_sessions' doesn't exist for query 
+        SELECT *
+        FROM wp_wplc_chat_sessions
+        WHERE `id` = '283'
+         made by do_action('wp_ajax_wplc_call_to_server_visitor'), call_user_func_array, wplc_init_ajax_callback, wplc_return_chat_status
+[16-Dec-2015 11:13:41 UTC] WordPress database error Table 'adformcr_adformcreative.wp_wplc_chat_sessions' doesn't exist for query 
+        SELECT *
+        FROM wp_wplc_chat_sessions
+        WHERE `id` = '284'
+         made by do_action('wp_ajax_nopriv_wplc_call_to_server_visitor'), call_user_func_array, wplc_init_ajax_callback, wplc_return_chat_status

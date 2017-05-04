@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head><link rel="stylesheet" type="text/css" href="http://adformcreative.com/wp-content/cache/minify/000000/jY5BCsJADEUv5Ji68jgSZ9ISzCRlkiK9vZUKzkLUXfi8__MGqNTYIbuDxyp0GLpELGOwqR9OgHdyq5SCPLiaMsoOYamsaS9_weaGly7c0GwamCON1mo6A2uWpVDn8nw7m0eaGhdAdwqHsW010tIp_6LG7U4vsU_wJHZFeQ8e_cbqf5GCqy3xAA.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://adformcreative.com/wp-content/cache/minify/000000/M9QvzswtyEnVLUotLsjPK84sS9UtzslMSS3STywuTi0p1k8uLtZHSILligE.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://adformcreative.com/wp-content/cache/minify/000000/VY7RDsIgDEV_aKUSH_yebnQGM1qkKPL3LjMz4e3c3OTkeGwZMt1Z6B3xBFjMpgsmLtFwZ5xVq9VC2aUow7OqVKDGpomH02rfePLIZB1WkqXP-sE_PJ4vLt2dG7y7utsh8Bi0yaYUIKnEquXoAgpB5acd44wk7Iov.css" media="all" />
+
+
+<link rel="apple-touch-icon" sizes="57x57" href="http://adformcreative.com/wp-content/themes/meris/fav/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="http://adformcreative.com/wp-content/themes/meris/fav/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="http://adformcreative.com/wp-content/themes/meris/fav/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="http://adformcreative.com/wp-content/themes/meris/fav/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="http://adformcreative.com/wp-content/themes/meris/fav/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="http://adformcreative.com/wp-content/themes/meris/fav/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="http://adformcreative.com/wp-content/themes/meris/fav/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="http://adformcreative.com/wp-content/themes/meris/fav/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://adformcreative.com/wp-content/themes/meris/fav/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="http://adformcreative.com/wp-content/themes/meris/fav/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://adformcreative.com/wp-content/themes/meris/fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="http://adformcreative.com/wp-content/themes/meris/fav/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://adformcreative.com/wp-content/themes/meris/fav/favicon-16x16.png">
+<link rel="manifest" href="http://adformcreative.com/wp-content/themes/meris/fav/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="http://adformcreative.com/wp-content/themes/meris/fav/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta charset="UTF-8" />
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,500,700,700italic,100' rel='stylesheet' type='text/css'>
+
+
+    <title>Case Studies &#8211; Adform Creative</title>
+<link rel="alternate" type="application/rss+xml" title="Adform Creative &raquo; Feed" href="http://adformcreative.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Adform Creative &raquo; Comments Feed" href="http://adformcreative.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/adformcreative.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=eecd1ca66bd5ba7a47edfc5e99180957"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d");return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(String.fromCharCode(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(String.fromCharCode(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(String.fromCharCode(55357,56835),0,0):e.fillText(String.fromCharCode(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+<style id='meris-main-inline-css' type='text/css'>
+.blog-list-page header{background:url(http://adformcreative.com/wp-content/themes/meris/images/banner-1.jpg) no-repeat;}
+.header-wrapper header .name-box .site-name,.header-wrapper header .name-box .site-tagline { color:#fff;}body{margin:0px;}
+</style>
+<link rel='stylesheet' id='meris-scheme'  href='http://adformcreative.com/wp-content/themes/meris/css/scheme.less?ver=1.0.0' type='text/less' media='' /><link rel='stylesheet' id='montserrat-css'  href='//fonts.googleapis.com/css?family=Montserrat%3A400%2C700%7COpen+Sans%3A300%2C400%2C700&#038;ver=eecd1ca66bd5ba7a47edfc5e99180957' type='text/css' media='' />
+
+
+<script type="text/javascript" src="http://adformcreative.com/wp-content/cache/minify/000000/M9bPKixNLarUMYYydHMz04sSS1L1cjPzdAz1E8tTi_NzU3VLUotLMnPz8zITc4r1s4qhivWSE4vyS92KUlOCU3N0zfSM9Azx6CkoSoxHFgMA.js"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var post_grid_ajax = {"post_grid_ajaxurl":"http:\/\/adformcreative.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://adformcreative.com/wp-content/cache/minify/000000/RctBCoAwDAXRC1lDjyQ2lUibhPzg-RVBXL-ZSm7IcoQ02gBOUA_TZG10grCHeGKpBJk-uATDTSEXFwxpHN_1xL-9hHWK3g.js"></script>
+<link rel='https://api.w.org/' href='http://adformcreative.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://adformcreative.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://adformcreative.com/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="http://adformcreative.com/creative-lounge/case-studies/" />
+<link rel='shortlink' href='http://adformcreative.com/?p=38' />
+<link rel="alternate" type="application/json+oembed" href="http://adformcreative.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fadformcreative.com%2Fcreative-lounge%2Fcase-studies%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://adformcreative.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fadformcreative.com%2Fcreative-lounge%2Fcase-studies%2F&#038;format=xml" />
+	<style type='text/css'>
+	.download-info .download-button {
+		background-image: url(http://adformcreative.com/wp-content/plugins/download-monitor/page-addon/downloadbutton.gif);
+	}
+	.download-info .more-button {
+		background-image: url(http://adformcreative.com/wp-content/plugins/download-monitor/page-addon/morebutton.gif);
+	}
+	</style>
+	<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(function() {
+			$(".rslides").responsiveSlides({
+			  auto: true,             // Boolean: Animate automatically, true or false
+			  speed: 500,            // Integer: Speed of the transition, in milliseconds
+			  timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+			  pager: true,           // Boolean: Show pager, true or false
+			  nav: false,             // Boolean: Show navigation, true or false
+			  random: false,          // Boolean: Randomize the order of the slides, true or false
+			  pause: true,           // Boolean: Pause on hover, true or false
+			  pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+			  prevText: "Back",   // String: Text for the "previous" button
+			  nextText: "Next",       // String: Text for the "next" button
+			  maxwidth: "1000",           // Integer: Max-width of the slideshow, in pixels
+			  navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+			  manualControls: "",     // Selector: Declare custom pager navigation
+			  namespace: "rslides",   // String: Change the default namespace used
+			  before: function(){},   // Function: Before callback
+			  after: function(){}     // Function: After callback
+			});
+		});
+	 });
+	</script>
+	<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//adformcreative.com/?wordfence_logHuman=1&hid=76146EA029F9A5CFC490260681661760');
+</script>
+<!-- Easy FancyBox 1.5.7 using FancyBox 1.3.7 - RavanH (http://status301.net/wordpress-plugins/easy-fancybox/) -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var fb_timeout = null;
+var fb_opts = { 'overlayShow' : true, 'hideOnOverlayClick' : true, 'showCloseButton' : true, 'centerOnScroll' : true, 'enableEscapeButton' : true, 'autoScale' : true };
+var easy_fancybox_handler = function(){
+	/* IMG */
+	var fb_IMG_select = 'a[href*=".jpg"]:not(.nofancybox,.pin-it-button), area[href*=".jpg"]:not(.nofancybox), a[href*=".jpeg"]:not(.nofancybox,.pin-it-button), area[href*=".jpeg"]:not(.nofancybox), a[href*=".png"]:not(.nofancybox,.pin-it-button), area[href*=".png"]:not(.nofancybox)';
+	jQuery(fb_IMG_select).addClass('fancybox image');
+	var fb_IMG_sections = jQuery('div.gallery');
+	fb_IMG_sections.each(function() { jQuery(this).find(fb_IMG_select).attr('rel', 'gallery-' + fb_IMG_sections.index(this)); });
+	jQuery('a.fancybox, area.fancybox, li.fancybox a:not(li.nofancybox a)').fancybox( jQuery.extend({}, fb_opts, { 'transitionIn' : 'elastic', 'easingIn' : 'easeOutBack', 'transitionOut' : 'elastic', 'easingOut' : 'easeInBack', 'opacity' : false, 'hideOnContentClick' : false, 'titleShow' : true, 'titlePosition' : 'over', 'titleFromAlt' : true, 'showNavArrows' : true, 'enableKeyboardNav' : true, 'cyclic' : false }) );
+	/* Auto-click */ 
+	jQuery('#fancybox-auto').trigger('click');
+}
+/* ]]> */
+</script>
+    
+
+   <script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Roboto:400,300italic,300,500,700,700italic,100:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+
+</head>
+<body class="page page-id-38 page-child parent-pageid-32 page-template page-template-templates page-template-case-study page-template-templatescase-study-php">
+	<div class="blog-list-page both-aside header-wrapper">
+		<!--Header-->
+<div class="inner-page">
+<ul id="menu-leftsidebar" class="menu"><li id="menu-item-97" class="company-div menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="http://adformcreative.com/company/">Company</a></li>
+<li id="menu-item-356" class="capabilities-div menu-item menu-item-type-post_type menu-item-object-page menu-item-356"><a href="http://adformcreative.com/capabilities/"> Capabilities</a></li>
+<li id="menu-item-357" class="branding-div menu-item menu-item-type-post_type menu-item-object-page menu-item-357"><a href="http://adformcreative.com/branding-tools/"> Branding Tools</a></li>
+<li id="menu-item-358" class="lounge-div menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-358"><a href="http://adformcreative.com/creative-lounge/"> Creative Lounge</a></li>
+<li id="menu-item-78" class="customer-div menu-item menu-item-type-post_type menu-item-object-page menu-item-78"><a href="http://adformcreative.com/customer-care/"> Customer Care</a></li>
+</ul></div>
+<div class="container-fluid case-study-container">
+	<div id="post-38" class="post-38 page type-page status-publish hentry">
+		<div class="blog-list">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="row">
+						
+						<div class="col-md-12">
+						<div class="inner-page1">
+							<div class="row">
+						<div class="col-md-8 col-sm-8">&nbsp;</div>
+<div class="col-md-4 col-sm-12">
+	<div class="right-nav">
+	<div class="home-icn">
+		<a href="http://adformcreative.com"><img src="http://adformcreative.com/wp-content/themes/meris/images/home_icon_vpi_blue.png" height="20"></a>	
+	</div>
+	<button class="site-nav-toggle">
+		<span class="sr-only">Toggle navigation</span>
+		<i class="fa fa-bars fa-2x"></i>
+	</button>
+	<nav class="site-nav" role="navigation">
+		<ul id="menu" class="main-nav"><li id="menu-item-658" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-658"><a href="http://adformcreative.com/"><span>Home</span></a></li>
+<li id="menu-item-510" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-510"><a href="http://adformcreative.com/company/"><span>company</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-274" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a href="http://adformcreative.com/company/our-story/"><span>Our Story</span></a></li>
+	<li id="menu-item-508" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-508"><a href="http://adformcreative.com/company/our-people/"><span>Our People</span></a></li>
+	<li id="menu-item-271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"><a href="http://adformcreative.com/company/brand-assets/"><span>Brand Assets</span></a></li>
+	<li id="menu-item-844" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-844"><a href="http://adformcreative.com/company/responsibility/"><span>Responsibility</span></a></li>
+	<li id="menu-item-275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="http://adformcreative.com/company/real-adform-experiences/"><span>Real adform Experiences</span></a></li>
+	<li id="menu-item-272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="http://adformcreative.com/company/clients/"><span>Clients</span></a></li>
+	<li id="menu-item-273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a href="http://adformcreative.com/company/contact-us/"><span>Contact Us</span></a></li>
+</ul>
+</li>
+<li id="menu-item-517" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-517"><a href="http://adformcreative.com/capabilities/"><span>Capabilities</span></a></li>
+<li id="menu-item-518" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-518"><a href="http://adformcreative.com/branding-tools/"><span>branding tools</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-285" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-285"><a href="http://adformcreative.com/branding-tools/promo-print/"><span>Promo &#038; Print</span></a></li>
+	<li id="menu-item-284" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-284"><a href="http://adformcreative.com/branding-tools/motivation-recognition/"><span>Motivation &#038; Recognition</span></a></li>
+	<li id="menu-item-286" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286"><a href="http://adformcreative.com/branding-tools/tradeshow-event/"><span>Tradeshow &#038; Event</span></a></li>
+	<li id="menu-item-283" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-283"><a href="http://adformcreative.com/branding-tools/corporate-apparel-uniforms/"><span>Corporate Apparel &#038; Uniforms</span></a></li>
+</ul>
+</li>
+<li id="menu-item-519" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-519"><a href="http://adformcreative.com/creative-lounge/"><span>Creative Lounge</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-292" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-292"><a href="http://adformcreative.com/creative-lounge/gallery/"><span>Gallery</span></a></li>
+	<li id="menu-item-845" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-845"><a href="http://adformcreative.com/creative-lounge/videos/"><span>Videos</span></a></li>
+	<li id="menu-item-288" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-288"><a href="http://adformcreative.com/creative-lounge/blog-news/"><span>Blog &#038; News</span></a></li>
+	<li id="menu-item-1035" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1035"><a href="http://adformcreative.com/creative-lounge/downloads/"><span>Downloads</span></a></li>
+	<li id="menu-item-290" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-38 current_page_item menu-item-290"><a href="http://adformcreative.com/creative-lounge/case-studies/"><span>Case Studies</span></a></li>
+</ul>
+</li>
+<li id="menu-item-520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-520"><a href="http://adformcreative.com/customer-care/"><span>Customer Care</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-300" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-300"><a href="http://adformcreative.com/customer-care/tools-resources/"><span>Tools &#038; Resources</span></a></li>
+	<li id="menu-item-298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-298"><a href="http://adformcreative.com/customer-care/order-status/"><span>Order Status</span></a></li>
+	<li id="menu-item-846" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-846"><a href="http://adformcreative.com/customer-care/terms-conditions/"><span>Terms &#038; Conditions</span></a></li>
+	<li id="menu-item-847" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-847"><a href="http://adformcreative.com/customer-care/contact-us/"><span>Contact Us</span></a></li>
+	<li id="menu-item-1040" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1040"><a href="http://adformcreative.com/customer-care/ftp/"><span>FTP</span></a></li>
+</ul>
+</li>
+</ul>	</nav>
+	</div>
+</div>						 <div class="col-md-12">
+									<div class="row">
+										<div class="col-md-9 col-sm-9">
+								 								 				<div class="page-main-heading">
+												<h1 style='color:#fc4f00'>Creative Lounge</h1>
+											</div>
+										</div>
+										<div class="col-md-3 col-sm-3 col-xs-7">
+									 														<div class="logo-div innerpage-logo">
+												<a href="http://adformcreative.com/"> <img
+													src="http://adformcreative.com/wp-content/uploads/2015/11/logo.png"
+													class="site-logo" alt="Adform Creative" />
+												</a>
+											</div>
+										     									 </div>
+									</div>
+								</div>
+							<div class="col-md-12 gallery-padding">
+								<div class="submenu-pages class-fc4f00" >
+									<li class="page_item page-item-34"><a href="http://adformcreative.com/creative-lounge/gallery/">Gallery</a></li>
+<li class="page_item page-item-744"><a href="http://adformcreative.com/creative-lounge/videos/">Videos</a></li>
+<li class="page_item page-item-36"><a href="http://adformcreative.com/creative-lounge/blog-news/">Blog &#038; News</a></li>
+<li class="page_item page-item-967"><a href="http://adformcreative.com/creative-lounge/downloads/">Downloads</a></li>
+<li class="page_item page-item-38 current_page_item"><a href="http://adformcreative.com/creative-lounge/case-studies/">Case Studies</a></li>
+								</div>
+								
+								<div class="mobile-banner-image mobile-gellary-title" style="background-image:url('http://adformcreative.com/wp-content/uploads/2015/11/banner-mobile41.jpg');background-color:#fc4f00"><h1>Creative Lounge</h1></div>
+								<div class="submenu-pages-dropdown">
+									<select id="changepage">
+									<option value="">Select</option>
+																							<option  value="http://adformcreative.com/creative-lounge/gallery/" >Gallery</option>
+																									<option  value="http://adformcreative.com/creative-lounge/videos/" >Videos</option>
+																									<option  value="http://adformcreative.com/creative-lounge/blog-news/" >Blog &#038; News</option>
+																									<option  value="http://adformcreative.com/creative-lounge/downloads/" >Downloads</option>
+																									<option selected value="http://adformcreative.com/creative-lounge/case-studies/" >Case Studies</option>
+																					</select>
+								</div>
+							</div>
+							<div class="col-md-12 ">
+								<div class="main-content case-main container-a3 orange-color">
+									<ul class="col-md-12 caption-style-3" id="basic">
+
+										
+										<li class="col-md-4 col-sm-12 col-xs-12 item blog-pandding">										
+																						<a href="http://adformcreative.com/woodstock-farms-non-gmo-wagon/">
+												<img src="http://adformcreative.com/wp-content/uploads/2015/12/Woodstock-Farms-Non-GMO-Wagon-e1449660326839-330x300.jpg">
+												<div class="captionn">
+													<div class="blur"></div>
+													<div class="caption-text">
+														<h1>Woodstock Farms Non-GMO Wagon</h1>										
+													</div>
+												</div>
+											</a>
+										</li>
+										
+										
+										<li class="col-md-4 col-sm-12 col-xs-12 item blog-pandding">										
+																						<a href="http://adformcreative.com/tw-perry-anniversary-emergency-light/">
+												<img src="http://adformcreative.com/wp-content/uploads/2015/12/TW-Perry-Anniversary-Emergency-Light-330x300.jpg">
+												<div class="captionn">
+													<div class="blur"></div>
+													<div class="caption-text">
+														<h1>TW Perry Anniversary Emergency Light</h1>										
+													</div>
+												</div>
+											</a>
+										</li>
+										
+										
+										<li class="col-md-4 col-sm-12 col-xs-12 item blog-pandding">										
+																						<a href="http://adformcreative.com/polar-beverages-adirondak-chair/">
+												<img src="http://adformcreative.com/wp-content/uploads/2015/12/Polar-Beverages-Adirondak-Chair-e1449658032586-330x300.jpg">
+												<div class="captionn">
+													<div class="blur"></div>
+													<div class="caption-text">
+														<h1>Polar Beverages Adirondak Chair</h1>										
+													</div>
+												</div>
+											</a>
+										</li>
+										
+										
+										<li class="col-md-4 col-sm-12 col-xs-12 item blog-pandding">										
+																						<a href="http://adformcreative.com/plastipak-recognition-program/">
+												<img src="http://adformcreative.com/wp-content/uploads/2015/12/Plastipak-Recognition-Program-330x300.jpg">
+												<div class="captionn">
+													<div class="blur"></div>
+													<div class="caption-text">
+														<h1>Plastipak Recognition Program</h1>										
+													</div>
+												</div>
+											</a>
+										</li>
+										
+										
+										<li class="col-md-4 col-sm-12 col-xs-12 item blog-pandding">										
+																						<a href="http://adformcreative.com/performance-food-group-display/">
+												<img src="http://adformcreative.com/wp-content/uploads/2015/12/Performance-Food-Group-Display-330x300.jpg">
+												<div class="captionn">
+													<div class="blur"></div>
+													<div class="caption-text">
+														<h1>Performance Food Group Display</h1>										
+													</div>
+												</div>
+											</a>
+										</li>
+										
+										
+										<li class="col-md-4 col-sm-12 col-xs-12 item blog-pandding">										
+																						<a href="http://adformcreative.com/paper-products/">
+												<img src="http://adformcreative.com/wp-content/uploads/2015/12/Paper-Products-330x300.gif">
+												<div class="captionn">
+													<div class="blur"></div>
+													<div class="caption-text">
+														<h1>Paper Products</h1>										
+													</div>
+												</div>
+											</a>
+										</li>
+										
+										
+										<li class="col-md-4 col-sm-12 col-xs-12 item blog-pandding">										
+																						<a href="http://adformcreative.com/marmon-group-wire-cable-usb/">
+												<img src="http://adformcreative.com/wp-content/uploads/2015/12/Marmon-Group-Wire-Cable-USB-330x300.jpg">
+												<div class="captionn">
+													<div class="blur"></div>
+													<div class="caption-text">
+														<h1>Marmon Group Wire Cable USB</h1>										
+													</div>
+												</div>
+											</a>
+										</li>
+										
+										
+										<li class="col-md-4 col-sm-12 col-xs-12 item blog-pandding">										
+																						<a href="http://adformcreative.com/manchester-honda-auto-broom-set/">
+												<img src="http://adformcreative.com/wp-content/uploads/2015/12/Manchester-Honda-Auto-Broom-Set-330x300.jpg">
+												<div class="captionn">
+													<div class="blur"></div>
+													<div class="caption-text">
+														<h1>Manchester Honda Auto Broom Set</h1>										
+													</div>
+												</div>
+											</a>
+										</li>
+										
+										
+										<li class="col-md-4 col-sm-12 col-xs-12 item blog-pandding">										
+																						<a href="http://adformcreative.com/johns-hopkins-medicine-employee-award/">
+												<img src="http://adformcreative.com/wp-content/uploads/2015/12/Johns-Hopkins-Medicine-Employee-Award-330x300.jpg">
+												<div class="captionn">
+													<div class="blur"></div>
+													<div class="caption-text">
+														<h1>Johns Hopkins Medicine Employee Award</h1>										
+													</div>
+												</div>
+											</a>
+										</li>
+										
+										
+										<li class="col-md-4 col-sm-12 col-xs-12 item blog-pandding">										
+																						<a href="http://adformcreative.com/iae-custom-turbine-umbrella/">
+												<img src="http://adformcreative.com/wp-content/uploads/2015/12/IAE-Custom-Turbine-Umbrella-330x300.jpg">
+												<div class="captionn">
+													<div class="blur"></div>
+													<div class="caption-text">
+														<h1>IAE Custom Turbine Umbrella</h1>										
+													</div>
+												</div>
+											</a>
+										</li>
+										
+										
+										<li class="col-md-4 col-sm-12 col-xs-12 item blog-pandding">										
+																						<a href="http://adformcreative.com/general-cable-hand-safety-magic-cube/">
+												<img src="http://adformcreative.com/wp-content/uploads/2015/12/General-Cable-Hand-Safety-Magic-Cube-330x300.jpg">
+												<div class="captionn">
+													<div class="blur"></div>
+													<div class="caption-text">
+														<h1>General Cable Hand Safety Magic Cube</h1>										
+													</div>
+												</div>
+											</a>
+										</li>
+										
+										
+										<li class="col-md-4 col-sm-12 col-xs-12 item blog-pandding">										
+																						<a href="http://adformcreative.com/congressional-fire-services-bobbleheads/">
+												<img src="http://adformcreative.com/wp-content/uploads/2015/12/Congressional-Fire-Services-Bobbleheads-e1449657704970-330x300.jpg">
+												<div class="captionn">
+													<div class="blur"></div>
+													<div class="caption-text">
+														<h1>Congressional Fire Services Bobbleheads</h1>										
+													</div>
+												</div>
+											</a>
+										</li>
+										
+										
+										<li class="col-md-4 col-sm-12 col-xs-12 item blog-pandding">										
+																						<a href="http://adformcreative.com/boat-us-mailable-flat-flashlight/">
+												<img src="http://adformcreative.com/wp-content/uploads/2015/12/Boat-US-Mailable-Flat-Flashlight-330x300.jpg">
+												<div class="captionn">
+													<div class="blur"></div>
+													<div class="caption-text">
+														<h1>Boat US Mailable Flat Flashlight</h1>										
+													</div>
+												</div>
+											</a>
+										</li>
+										
+										
+										<li class="col-md-4 col-sm-12 col-xs-12 item blog-pandding">										
+																						<a href="http://adformcreative.com/ability-one-braile-tumbler/">
+												<img src="http://adformcreative.com/wp-content/uploads/2015/12/Ability-One-Braile-Tumbler-330x300.jpg">
+												<div class="captionn">
+													<div class="blur"></div>
+													<div class="caption-text">
+														<h1>Ability One Braile Tumbler</h1>										
+													</div>
+												</div>
+											</a>
+										</li>
+										
+										
+										<div class="col-md-12 col-sm-12 col-xs-12">
+																					</div>
+									</ul>
+
+									<div class="col-md-5">
+
+																				
+										
+									</div>
+
+								</div>
+							</div>
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="http://adformcreative.com/wp-content/cache/minify/000000/M9DPTS3KLNbPKtbPTSzOzyuqBAA.js"></script>
+<script type="text/javascript">
+jquery(document).ready( function() {
+  var container = document.querySelector('#basic');
+  var msnry = new Masonry( container, {
+    columnWidth: 60
+  });
+});
+</script>
+<!--Footer-->
+<div class="container-fluid footer">
+	<div class="row">
+		<footer>
+			<div class="footer-first-row">
+				<div class="col-md-7 col-sm-11 col-xs-12 displaynone">
+				<div class="col-md-3 col-sm-3 col-xs-12 adform1 tex-center">
+					<a class="adform" href="https://remote.theadformteam.com/owa" target="_blank">adform OWA</a>
+					</div>
+				<div class="col-md-3 col-sm-3 col-xs-12 quick-track1 text-center">
+				<a class="quick-track-rdp" href="https://rdp.theadformteam.com" target="_blank">RDP<br>
+				<span>(Remote Desktop)</span></a>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-12 emailus1 tex-center">
+					<a class="emailus" href="mailto:sales@adformgroup.com">Email Us</a>
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-12 tex-center quick-track1 text-center">
+					<a class="quick-track" href="http://adformcreative.com/customer-care/order-status/">Quick Track<br>
+<span>Coming soon...</span></a>
+					</div>
+					
+				</div>
+				<div class="col-md-3 col-sm-7 col-xs-12 bg-color1 pandding-chat displaynone">
+				
+					<div class="col-md-6 col-sm-7 col-xs-12">
+					<div class="phone-n">
+						<a href="javascript:void(0);" id="live-chat">
+							800.345.3543</a>
+					</div>
+					</div>
+					<div class="col-md-6 col-sm-5 col-xs-12">
+					<div class="chat-div">
+						<!--<a href="javascript:void(0);" id="live-chat"><span>LIVE CHAT</span></a>-->
+						<a href="javascript:void(0)" onclick="window.open('https://c1.websitealive.com/6892/visitor/window/?code_id=6229&dl='+escape(document.location.href),'wsa_6892_0','height=200,width=200')"/>LIVE CHAT</a>
+					</div>
+					</div>
+				</div>
+				<div class="mobile-menu">
+					<ul>
+						<li><a class="icon1" target="_blank" href="https://remote.theadformteam.com/owa">adform OWA</a></li>
+						<li><a class="rdp-icon-mobile" target="_blank" href="https://rdp.theadformteam.com">RDP (Remote Desktop)</a></li>
+						<li><a class="icon2" href="mailto:mailto:sales@adformgroup.com">Email Us</a></li>
+						<li><a class="icon3" href="http://vps49294.vps.ovh.ca/adform/customer-care/order-status/">Quick Track</a></li>
+						<li><a class="icon4" href="javascript:void(0);">800.345.3543</a></li>
+						<li><a class="icon5" onclick="window.open('https://c1.websitealive.com/6892/visitor/window/?code_id=6229&amp;dl='+escape(document.location.href),'wsa_6892_0','height=200,width=200')" href="javascript:void(0)">LIVE CHAT</a></li>
+						<!--<li><span>Region:</span> <img width="22" height="13" alt="" src="/adform/wp-content/themes/meris/images/us.png"> <span>United states <br>
+<a href="http://vps49294.vps.ovh.ca/adform/contact-us/">Change</a></span></li>-->
+					</ul>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-12 bg-color1 bg-color2">
+					<div class="region-div"><span >Region:</span> <img src="http://adformcreative.com/wp-content/themes/meris/images/us.png" width="22" height="13" alt=""/> <span>United states <br>
+<a href="http://adformcreative.com/contact-us/">Change</a></span></div>
+				</div>
+								<div class="col-xs-12 searcg-border">
+				<div class="search-form">
+						<form role="search" action="http://adformcreative.com/"
+							class="search">
+							<div>
+								<input type="submit" value=""> <label class="sr-only">Search for:</label>
+								<input type="text" value="" name="s" id="s"
+									placeholder="Type your keyword search">
+							</div>
+						</form>
+					</div>
+					</div>
+			</div>
+				<div class="footer-secound-row">
+			<div class="col-md-12 text-center">
+				
+					<div class="site-info">
+					&copy; 2016 Adform <!--| The Fine Print | Web Design by <a href="http://www.fusioninteractivegroup.com/" target="_blank">FUSION Interactive</a>-->
+				</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+</div>
+<script type="text/javascript" src="http://adformcreative.com/wp-content/cache/minify/000000/M9DPTS3KLNbPKtYvzslMztbLzcwDAA.js"></script>
+<script type="text/javascript"  defer>
+jQuery(document).ready(function() {
+	  jQuery('.bottombanner').slick({
+		dots: false,
+		infinite: true,
+		speed: 300,
+		slidesToShow: 5,
+		slidesToScroll: 2,
+		autoplay: true,
+		autoplaySpeed: 5000,
+		adaptiveHeight:true,
+		responsive: [
+		{
+		  breakpoint: 1024,
+		  settings: {
+			slidesToShow: 4,
+			slidesToScroll: 2,
+			infinite: true,
+			dots: true
+		  }
+		},
+		{
+		  breakpoint: 600,
+		  settings: {
+			slidesToShow: 2,
+			slidesToScroll: 2
+		  }
+		},
+		{
+		  breakpoint: 480,
+		  settings: {
+			slidesToShow: 2,
+			slidesToScroll: 2
+		  }
+		}
+
+		]
+		});
+								
+	jQuery(".various").fancybox({
+		maxWidth	: 800,
+		maxHeight	: 600,
+		fitToView	: false,
+		width		: '100%',
+		height		: '70%',
+		autoSize	: false,
+		closeClick	: false,
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
+});
+</script>
+<script type="text/javascript" src="http://adformcreative.com/wp-content/themes/meris/js/jquery.fancybox.js?v=2.1.5"  defer></script>
+<link rel="stylesheet" type="text/css" href="http://adformcreative.com/wp-content/themes/meris/css/jquery.fancybox.css?v=2.1.5" media="screen" />
+<script type="text/javascript"  defer>
+  var topRange      = 200,  // measure from the top of the viewport to X pixels down
+  edgeMargin    = 20,   // margin above the top or margin from the end of the page
+  animationTime = 1200, // time in milliseconds
+  contentTop = [];
+
+  jQuery(document).ready(function(){ 
+  // Stop animated scroll if the user does something
+  jQuery('html,body').bind('scroll mousedown DOMMouseScroll mousewheel keyup', function(e){
+    if ( e.which > 0 || e.type == 'mousedown' || e.type == 'mousewheel' ){
+      jQuery('html,body').stop();
+    }
+  })
+
+  // Set up content an array of locations
+  jQuery('#sidemenu').find('a').each(function(){
+    contentTop.push( jQuery( jQuery(this).attr('href') ).offset().top );
+  })
+
+  // Animate menu scroll to content
+  jQuery('#sidemenu').find('a').click(function(){
+      var sel = this,
+      newTop = Math.min( contentTop[ jQuery('#sidemenu a').index( jQuery(this) ) ], jQuery(document).height() - jQuery(window).height() ); // get content top or top position if at the document bottom
+      jQuery('html,body').stop().animate({ 'scrollTop' : newTop }, animationTime, function(){
+      window.location.hash = jQuery(sel).attr('href');
+    });
+    return false;
+  })
+
+  // adjust side menu
+  jQuery(window).scroll(function(){
+    var winTop = jQuery(window).scrollTop(),
+    bodyHt = jQuery(document).height(),
+    vpHt = jQuery(window).height() + edgeMargin;  // viewport height + margin
+    jQuery.each( contentTop, function(i,loc){
+      if ( ( loc > winTop - edgeMargin && ( loc < winTop + topRange || ( winTop + vpHt ) >= bodyHt ) ) ){
+        jQuery('#sidemenu li')
+        .removeClass('selected')
+        .eq(i).addClass('selected');
+      }
+    })
+  })
+})
+</script>
+
+<script type="text/javascript" src="http://adformcreative.com/wp-content/cache/minify/000000/M9DPTS3KLNbPAqLC0tSiSr281PLikMzk7NQiAA.js"></script>
+<script type="text/javascript"  defer>
+    jQuery(document).ready(function() {
+          
+            var nt_example1 = jQuery('#nt-example1').newsTicker({
+                row_height: 110,
+                max_rows: 2,
+                speed: 400,
+                duration: 4000,
+                prevButton: jQuery('#nt-example1-prev'),
+                nextButton: jQuery('#nt-example1-next')
+            });
+        });
+</script>
+<script type="text/javascript" >
+  jQuery(document).ready(function() {
+    jQuery('#contact_form img').on("contextmenu",function(e){      
+        return false;
+    });      
+  });
+</script>
+<script type="text/javascript">
+  //Show/hide sub menu on down arrow click
+ jQuery(document).ready(function () {
+ 	jQuery('#menu li').each(function (e){
+    	
+ 		jQuery(this).prepend('<span class="downarrw"></span>');
+		jQuery("#menu li").each(function () {
+			var hasSubmenu = jQuery(this).find(".sub-menu").length;
+			if(hasSubmenu == 0){
+				jQuery(this).find('.downarrw').remove();
+			} 
+		});
+    	
+		jQuery(this).find('span.downarrw').click(function () {
+	    	jQuery(this).parent().addClass('active').siblings().removeClass('active');
+	    	if(jQuery(this).parent().hasClass('active')){
+	    		//show current sub menu
+	    		jQuery(this).parent().find("ul.sub-menu").slideDown('slow');
+	    	}
+			//hide other submenu 
+	       	jQuery(this).parent().siblings().find("ul.sub-menu").hide();	
+		});
+  	});
+ });   
+</script>
+// <script type="text/javascript">
+// 	var container = document.getElementById('embed_container');
+// 	var video = document.getElementById('video');
+// 	var ratio = 13.3/16; //this is why the 56.25% padding hack exists
+
+// 	function resizer() {
+// 	    var width = parseInt(window.getComputedStyle(container)['width'], 10);
+	    
+// 	    var height = (width * ratio);
+// 	    //alert(height);
+// 	    video.style.width = width + 'px';
+// 	    video.style.height = height + 'px';
+// 	    video.style.background = '#000000';
+// 	    video.style.marginTop = '0'; //~732px wide, the video border is about 24px thick (24/732)
+	    
+// 	    container.style.height = (height * 1.00) + 'px'; //0.88 was the magic number that you needed to shrink the height of the outer container with.
+// 	}
+
+// 	//attach event on resize
+// 	window.addEventListener('resize', resizer, false);
+
+// 	//call function for initial sizing
+// 	//no need for padding hack since we are setting the height based off of the width * aspect ratio
+// 	resizer();
+// 	//container.style.padding = 0;
+// </script>
+<script type="text/javascript" src="http://adformcreative.com/wp-content/cache/minify/000000/M9RPzs8rSUwu0U3LL8rVNdfPzEvOKU1JLdbPAqLC0tSiSj2QjF5uZh4A.js"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/adformcreative.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Sending ...","cached":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://adformcreative.com/wp-content/cache/minify/000000/HchBDoAwCATAD1m3nnxPxZpgCjSA_2_iHOcAmWajLI-5lBOsNL67B95AkPPM2CqkO_91mWWkt7kL6wI.js"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var meris_js_var = {"global_color":"#16225f"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://adformcreative.com/wp-content/cache/minify/000000/M9DPTS3KLNbPKtbPSS0u1svNzNMxQIgVpRYX5OelgIQB.js"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var meris_params = {"ajaxurl":"http:\/\/adformcreative.com\/wp-admin\/admin-ajax.php","themeurl":"http:\/\/adformcreative.com\/wp-content\/themes\/meris"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://adformcreative.com/wp-content/cache/minify/000000/dYzbDoIwEER_qN2FaOL3lDJqkW2xa4Pl69F4iQ_yNnNyZhoW5KA86CuY5gekHjmGJZMvekti9jxPFtKhJwnRtAyn1R5d9LVLd_6G4VqQK326bWlHh7-Tt_mAIZ5ocv6ypUgqivkMjM-jFQ.js"></script>
+<script type="text/javascript">
+jQuery(document).on('ready post-load', easy_fancybox_handler );
+</script>
+</body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Minified using disk
+Page Caching using disk: enhanced
+Content Delivery Network via N/A
+
+ Served from: adformcreative.com @ 2016-01-29 05:14:22 by W3 Total Cache -->

@@ -1,0 +1,156 @@
+			.meisterbox_overlay {
+				position: fixed;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				z-index: 9999;
+				background-color: #000000;
+				filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+				opacity: 0.8;
+				display: block;
+				cursor: pointer;
+				-webkit-tap-highlight-color: transparent;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-o-user-select: none;
+				user-select: none;
+			}
+			.meisterbox {
+				height: 100%;
+				left: 0;
+				margin-left: 0;
+				margin-top: 0;
+				position: fixed;
+				top: 0;
+				width: 100%;
+				z-index: 10000;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-o-user-select: none;
+				user-select: none;
+			}
+			.meisterbox_content {
+				background-clip: padding-box;
+				background-color: rgba(255, 255, 255, 1.0);
+				border: 1px solid rgba(0, 0, 0, 0.3);
+				border-radius: 6px;
+				box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5);
+				display: inline-block;
+				padding: 10px;
+				 left: 50%;
+				margin-left: -441px;
+				margin-top: -171px;
+				padding: 10px;
+				position: absolute;
+				top: 50%;
+				z-index: 10010;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-o-user-select: none;
+				user-select: none;
+			}
+			.meisterbox_content img {
+				/*border-radius: 2px;*/
+			}
+			.meisterbox_caption {
+				background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+				bottom: 11px;
+				/*border-radius: 0 0 2px 2px;*/
+				color: #FFFFFF;
+				font-size: 14px;
+				left: 11px;
+				line-height: 18px;
+				padding: 2%;
+				position: absolute;
+				right: 12px;
+				text-align: center;
+				text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+			}
+
+			.meisterbox_left {
+				position: fixed;
+				z-index: 10000;
+				background-image: url("../images/arrow7.png");
+				background-repeat: no-repeat;
+				left: 0;
+				width: 128px;
+				top: 50%;
+				margin-top: -64px;
+				height: 128px;
+				opacity: 0.3;
+				cursor: pointer;
+				
+			}
+			.meisterbox_right {
+				position: fixed;
+				z-index: 10000;
+				background-image: url("../images/arrow8.png");
+				background-repeat: no-repeat;
+				right: 0;
+				width: 128px;
+				top: 50%;
+				margin-top: -64px;
+				height: 128px;
+				opacity: 0.3;
+				cursor: pointer;
+				/*background-color: white;*/
+			}
+			.meisterbox_left, .meisterbox_right {
+				-webkit-tap-highlight-color: transparent;
+				-webkit-transition: opacity 0.2s cubic-bezier(0.550, 0.055, 0.675, 0.190);  
+				-moz-transition:    opacity 0.2s cubic-bezier(0.550, 0.055, 0.675, 0.190);
+				-ms-transition:     opacity 0.2s cubic-bezier(0.550, 0.055, 0.675, 0.190); 
+				-o-transition:      opacity 0.2s cubic-bezier(0.550, 0.055, 0.675, 0.190);  
+			}
+			.meisterbox_left:hover, .meisterbox_right:hover  {
+				opacity: 1.0;
+				background-color: white;
+			}
+			.meisterbox_bottom {
+				position: fixed;
+				z-index: 10000;
+				bottom: 0;
+				left:0;
+				text-align: center;
+				width: 100%;
+				padding: 10px 0;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-o-user-select: none;
+				user-select: none;
+			}
+			.meister_circle {
+				background-color: rgba(255, 255, 255, 1.0);
+				box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5);
+				border-radius: 100%;
+				display: inline-block;
+				height: 10px;
+				width: 10px;
+				cursor: pointer;
+				padding: 4px;
+				opacity: 0.3;
+				margin: 2px;
+				-webkit-tap-highlight-color: transparent;
+				-webkit-transition: opacity 0.2s cubic-bezier(0.000, 0.520, 0.085, 0.805);  
+				-moz-transition:    opacity 0.2s cubic-bezier(0.000, 0.520, 0.085, 0.805);
+				-ms-transition:     opacity 0.2s cubic-bezier(0.000, 0.520, 0.085, 0.805); 
+				-o-transition:      opacity 0.2s cubic-bezier(0.000, 0.520, 0.085, 0.805);/*cubic-bezier(0.550, 0.055, 0.675, 0.190); */ 
+			}
+			.meister_circle.selected {
+				opacity: 1.0;
+			}
+			.meister_circle:hover {
+				opacity: 1.0;
+			}
+			.interactive_map_finder text {
+				cursor: pointer;
+			}
+			.interactive_map_finder.with_html_tooltips .google-visualization-tooltip-item-list > li:first-child {
+				display: none;
+			}
+			.google-visualization-tooltip-item-list {
+				list-style-type: none !important;
+			}

@@ -1,0 +1,895 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Template Documentation Template</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+		.code_table td pre {
+			white-space: normal;
+			margin: 0;
+		}
+		.code_table pre {
+			margin: 0;
+		}
+		.code_table td, .code_table th {
+			vertical-align: top;
+		}
+		.code_table td {
+			color: #27AE60;
+		}
+		.code_table pre i {
+			color: #3D9DF0;
+			font-style: normal;
+		}
+		.region_table th {
+			white-space: pre;
+		}
+		.region_table td {
+			vertical-align: top;
+		}
+	</style>
+	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Interactive Map Builder&rdquo; Documentation by &ldquo;Fabian Vellguth&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Interactive Map Builder&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+				<table>
+					<tr>
+						<th>Created:</th>
+						<td>03/23/2014</td>
+					</tr>
+					<tr>
+						<th>By:</th>
+						<td>Fabian Vellguth</td>
+					</tr>
+					<tr>
+						<th>Plugin Site:</th>
+						<td><a href="http://www.meisterpixel.com">meisterpixel.com/interactive-map-builder</a></td>
+					</tr>
+					<tr>
+						<th>Email:</th>
+						<td><a href="mailto:youremail@yourdomain.com">info@meisterpixel.com</a></td>
+					</tr>
+				</table>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my plugin. If you have any questions that are beyond the 
+				scope of this help file, please feel free to email via my user page contact form 
+				<a href="http://themeforest.net/user/USERNAME">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#install">Install</a></li>
+			<li><a href="#quickstart">Quickstart</a></li>
+			<li><a href="#include">Include map in pages/posts</a></li>
+			<li><a href="#builder">Map Builder</a></li>
+			<li><a href="#actions">Click Actions</a></li>
+			<li><a href="#imp_exp">Manage Maps</a></li>
+		</ol>
+		
+		<hr>
+		
+		<!-- INSTALL -->
+		<h3 id="install"><strong>A) Install</strong> - <a href="#toc">top</a></h3>
+		<p>The installation procedure is similar to other plugins:</p>
+		<ol>
+			<li>Upload the folder <code>InteractiveMapBuilder</code> to the <code>/wp-content/plugins/</code> directory</li>
+			<li>Activate the plugin through the ‘Plugins’ menu in WordPress</li>
+			<li>A menu entry should appear on the left side and the plugin should be ready.</li>
+		</ol>
+
+		<hr>
+		
+		<!-- QUICKSTART -->
+		<h3 id="quickstart"><strong>B) Quickstart</strong> - <a href="#toc">top</a></h3>
+		<p>When the plugin is activated for the first time, it will automatically create some sample maps. 
+		When you click on "I Map Builder", the screen will probably look like the following picture. 
+		From this page you can start to edit one of the examples or you could start to create your own first map.</p>
+		<p style="text-align: center;">
+			<img class="aligncenter size-medium wp-image-88" alt="click_actions" src="assets/images/_first-activation.png" />
+		</p>
+		<p>In both cases the Map Builder will open. Section D) describes the Map Builder in more detail.</p>
+		
+		<hr>
+		
+		<!-- INCLUDE -->
+		<h3 id="include"><strong>C) Include map in pages/posts</strong> - <a href="#toc">top</a></h3>
+		<p>The map can be included in your pages and posts by inserting the corresponding shortcode. You can find this shortcode
+		for every map on the "All Maps" page. Find the map and copy the text from the "Shortcode" column. It should have the 
+		following format:</p>
+		<pre>[interactive_map id="1"]</pre>
+		<p>Note that the id is different for each map.</p>
+		
+		<hr>
+		
+		<!-- MAP BUILDER -->
+		<h3 id="builder"><strong>D) Map Builder</strong> - <a href="#toc">top</a></h3>
+		<p>The Map Builder is the most important tool of this plugin. It is used to create or edit maps. The Map Builder page can 
+		be divided into three sections:</p>
+		<ol>
+			<li><strong>Map Options</strong> <small>(the right side)</small></li>
+			<li><strong>Map Data Table</strong> <small>(the table below the preview)</small></li>
+			<li><strong>Map Preview</strong> <small>(the container showing the map)</small></li>
+		</ol>
+		
+		
+			<h5>1. Map Options</h5>
+			<p>All available map options are located on the right side. The following picture gives an overview:</p>
+			<p style="text-align: center;">
+				<img class="aligncenter size-medium wp-image-88" alt="click_actions" src="assets/images/_map_options2.png" />
+			</p>
+
+			<h6>1.1 Region</h6>
+			<p style="margin-bottom: 5px;">
+			The region specifies the displayed area of the map. It allows to focus the map on the 
+			</p>
+			<ul style="margin-bottom: 5px;">
+				<li><strong>world</strong>, </li>
+				<li>a <strong>continent</strong>, </li>
+				<li>a <strong>sub-continent</strong>, </li>
+				<li>a <strong>country</strong> or </li>
+				<li>a <strong>province</strong>. </li>
+			</ul>
+			<p>The default value is the world map. To focus the map on a smaller area, select a continent from the select field. 
+			After selecting a continent, a new field should appear, showing a list of subcontinents. The selection of a subcontitent allows 
+			you to select a country.
+			<br/>
+			Note that provinces are only available for the United States.</p>
+		<p>
+			The following two tables show a complete list of all available regions. Together with the world map there are currently 315 regions
+			to choose from:
+		</p>
+		<table class="region_table">
+			<caption>Table with the possible continents, sub-continents and countries:</caption>
+			<tbody>
+				<tr>
+					<th>Continents (5)</th>
+					<th>Sub-Continents (22)</th>
+					<th>Countries (236)</th>
+				</tr>
+				
+				<!-- Africa -->
+				<tr>
+					<td rowspan="5">Africa</td>
+					<td>Northern Africa</td>
+					<td>
+						Algeria,
+						Egypt,
+						Western Sahara,
+						Libya,
+						Morocco,
+						Sudan,
+						Tunisia
+					</td>
+				</tr>
+				<tr>
+					<td>Western Africa</td>
+					<td>
+						Burkina Faso,
+						Benin,
+						Côte d'Ivoire,
+						Cape Verde,
+						Ghana,
+						Gambia,
+						Guinea,
+						Guinea-Bissau,
+						Liberia,
+						Mali,
+						Mauritania,
+						Niger,
+						Nigeria,
+						Saint Helena,
+						Sierra Leone,
+						Senegal,
+						Togo
+					</td>
+				</tr>
+				<tr>
+					<td>Middle Africa</td>
+					<td>
+						Angola,
+						Congo,
+						Central African Republic,
+						Congo,
+						Cameroon,
+						Gabon,
+						Equatorial Guinea,
+						Sao Tome and Principe,
+						Chad
+					</td>
+				</tr>
+				<tr>
+					<td>Eastern Africa</td>
+					<td>
+						Burundi,
+						Djibouti,
+						Eritrea,
+						Ethiopia,
+						Kenya,
+						Comoros,
+						Madagascar,
+						Mauritius,
+						Malawi,
+						Mozambique,
+						Réunion,
+						Rwanda,
+						Seychelles,
+						Somalia,
+						Tanzania,
+						Uganda,
+						Mayotte,
+						Zambia,
+						Zimbabwe
+					</td>
+				</tr>
+				<tr>
+					<td>Southern Africa</td>
+					<td>
+						Botswana,
+						Lesotho,
+						Namibia,
+						Swaziland,
+						South Africa
+					</td>
+				</tr>
+				<tr>
+				
+				<!-- Europe -->
+				<td rowspan="4">Europe</td>
+					<td>Northern Europe</td>
+					<td>
+						Guernsey,
+						Jersey,
+						Åland,
+						Denmark,
+						Estonia,
+						Finland,
+						Faroe Islands,
+						United Kingdom,
+						Ireland,
+						Isle of Man,
+						Iceland,
+						Lithuania,
+						Latvia,
+						Norway,
+						Sweden,
+						Svalbard and Jan Mayen
+					</td>
+				</tr>
+				<tr>
+					<td>Western Europe</td>
+					<td>
+						Austria,
+						Belgium,
+						Switzerland,
+						Germany,
+						France,
+						Liechtenstein,
+						Luxembourg,
+						Monaco,
+						Netherlands
+					</td>
+				</tr>
+				<tr>
+					<td>Eastern Europe</td>
+					<td>
+						Bulgaria,
+						Belarus,
+						Czech Republic,
+						Hungary,
+						Moldova,
+						Poland,
+						Romania,
+						Russia,
+						Slovakia,
+						Ukraine
+					</td>
+				</tr>
+				<tr>
+					<td>Southern Europe</td>
+					<td>
+						Andorra,
+						Albania,
+						Bosnia and Herzegovina,
+						Spain,
+						Gibraltar,
+						Greece,
+						Croatia,
+						Italy,
+						Montenegro,
+						Macedonia,
+						Malta,
+						Serbia,
+						Portugal,
+						Slovenia,
+						San Marino,
+						Holy See (Vatican City State)
+					</td>
+				</tr>
+				
+				<!-- Americas -->
+				<tr>
+					<td rowspan="4">Americas</td>
+					<td>Northern America</td>
+					<td>
+						Bermuda,
+						Canada,
+						Greenland,
+						Saint Pierre and Miquelon,
+						United States
+					</td>
+				</tr>
+				<tr>
+					<td>Caribbean</td>
+					<td>
+						Antigua and Barbuda,
+						Anguilla,
+						Aruba,
+						Barbados,
+						Saint Barthélemy,
+						Bahamas,
+						Cuba,
+						Dominica,
+						Dominican Republic,
+						Grenada,
+						Guadeloupe,
+						Haiti,
+						Jamaica,
+						Saint Kitts and Nevis,
+						Cayman Islands,
+						Saint Lucia,
+						Saint Martin (French part),
+						Martinique,
+						Montserrat,
+						Puerto Rico,
+						Turks and Caicos Islands,
+						Trinidad and Tobago,
+						Saint Vincent and the Grenadines,
+						Virgin Islands (British),
+						Virgin Islands (U.S.)
+					</td>
+				</tr>
+				<tr>
+					<td>Central America</td>
+					<td>
+						Belize,
+						Costa Rica,
+						Guatemala,
+						Honduras,
+						Mexico,
+						Nicaragua,
+						Panama,
+						El Salvador
+					</td>
+				</tr>
+				<tr>
+					<td>South America</td>
+					<td>
+						Argentina,
+						Bolivia,
+						Brazil,
+						Chile,
+						Colombia,
+						Ecuador,
+						Falkland Islands (Malvinas),
+						French Guiana,
+						Guyana,
+						Peru,
+						Paraguay,
+						Suriname,
+						Uruguay,
+						Venezuela
+					</td>
+				</tr>
+				
+				<!-- Asia -->
+				<tr>
+					<td rowspan="5">Asia</td>
+					<td>Central Asia</td>
+					<td>
+						Turkmenistan,
+						Tajikistan,
+						Kyrgyzstan,
+						Kazakhstan,
+						Uzbekistan
+					</td>
+				</tr>
+				<tr>
+					<td>Eastern Asia</td>
+					<td>
+						China,
+						Hong Kong,
+						Japan,
+						North Korea,
+						South Korea,
+						Mongolia,
+						Macao,
+						Taiwan
+					</td>
+				</tr>
+				<tr>
+					<td>Southern Asia</td>
+					<td>
+						Afghanistan,
+						Bangladesh,
+						Bhutan,
+						India,
+						Iran,
+						Sri Lanka,
+						Maldives,
+						Nepal,
+						Pakistan
+					</td>
+				</tr>
+				<tr>
+					<td>South-Eastern Asia</td>
+					<td>
+						Brunei,
+						Indonesia,
+						Cambodia,
+						Laos,
+						Myanmar,
+						Malaysia,
+						Philippines,
+						Singapore,
+						Thailand,
+						Timor-Leste,
+						Vietnam
+					</td>
+				</tr>
+				<tr>
+					<td>Western Asia</td>
+					<td>
+						United Arab Emirates,
+						Armenia,
+						Azerbaijan,
+						Bahrain,
+						Cyprus,
+						Georgia,
+						Israel,
+						Iraq,
+						Jordan,
+						Kuwait,
+						Lebanon,
+						Oman,
+						Palestine, State of,
+						Qatar,
+						Saudi Arabia,
+						Syria,
+						Turkey,
+						Yemen
+					</td>
+				</tr>
+				
+				<!-- Oceania -->
+				<tr>
+					<td rowspan="4">Oceania</td>
+					<td>Australia and New Zealand</td>
+					<td>
+						Australia,
+						Norfolk Island,
+						New Zealand
+					</td>
+				</tr>
+				<tr>
+					<td>Melanesia</td>
+					<td>
+						Fiji,
+						New Caledonia,
+						Papua New Guinea,
+						Solomon Islands,
+						Vanuatu
+					</td>
+				</tr>
+				<tr>
+					<td>Micronesia</td>
+					<td>
+						Federated States of Micronesia,
+						Guam,
+						Kiribati,
+						Marshall Islands,
+						Northern Mariana Islands,
+						Nauru,
+						Palau
+					</td>
+				</tr>
+				<tr>
+					<td>Polynesia</td>
+					<td>
+						American Samoa,
+						Cook Islands,
+						Niue,
+						French Polynesia,
+						Pitcairn,
+						Tokelau,
+						Tonga,
+						Tuvalu,
+						Wallis and Futuna,
+						Samoa
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<table class="region_table">
+			<caption>Table with the possible provinces:</caption>
+			<tbody>
+				<tr>
+					<th></th>
+					<th>Provinces (51)</th>
+				</tr>
+				<tr>
+					<td>United States</td>
+					<td>
+						Alabama,
+						Alaska,
+						Arizona,
+						Arkansas,
+						California,
+						Colorado,
+						Connecticut,
+						Delaware,
+						Florida,
+						Georgia,
+						Hawaii,
+						Idaho,
+						Illinois,
+						Indiana,
+						Iowa,
+						Kansas,
+						Kentucky,
+						Louisiana,
+						Maine,
+						Maryland,
+						Massachusetts,
+						Michigan,
+						Minnesota,
+						Mississippi,
+						Missouri,
+						Montana,
+						Nebraska,
+						Nevada,
+						New Hampshire,
+						New Jersey,
+						New Mexico,
+						New York,
+						North Carolina,
+						North Dakota,
+						Ohio,
+						Oklahoma,
+						Oregon,
+						Pennsylvania,
+						Rhode Island,
+						South Carolina,
+						South Dakota,
+						Tennessee,
+						Texas,
+						Utah,
+						Vermont,
+						Virginia,
+						Washington,
+						West Virginia,
+						Wisconsin,
+						Wyoming,
+						District of Columbia
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<h6>1.2 Display Mode</h6>
+		<p style="text-align: center;">
+			<img class="aligncenter size-medium wp-image-88" alt="click_actions" src="assets/images/_display_modes.png" />
+		</p>
+		<p>The display mode specifies the data that you want to display. If you want to highlight the shapes of countries 
+		or provinces, then you have to select the <strong>region mode</strong>. For the United States, it is also possible 
+		to highlight metro areas. In this case, it is required to set the resolution (in 1.3) to metro borders.
+		<br/>
+		If you want to create a map with markers, then you have two choices. The <strong>markers from text</strong> option 
+		allows to set the location by passing a string (for example, "1600 Pennsylvania Ave" or "New York City"). When the 
+		map is loaded, the string will be used to find the location of the marker. If you have many markers on the map, this 
+		can cause the markers to appear after a delay.
+		<br/>
+		In the <strong>markers from coordinates</strong> mode, you can set the location by passing the latitude and longitude. 
+		The main advantage is that the markers appear when the map is loaded. So it is recommended to pick this mode. Even if 
+		you don't know the coodinates, the form of the data table allows you to search for the coordinates by clicking on 
+		"Find coordinates".
+		</p>
+
+		<h6>1.3 Resolution</h6>
+		<p>This option specifies the resolution of the map borders. The following values are available:</p>
+		<ul>
+			<li><strong>Country borders</strong> This is supported for all regions, except for US state regions.</li>
+			<li><strong>Province borders</strong> This is supported only for country regions and US state regions. Not supported for 
+			all countries; if available, the option is selectable.</li>
+			<li><strong>Metro borders</strong> This is supported for the US country region and US state regions only.</li>
+		</ul>
+		<p>Note that the value might change automatically if you select a region. Also note that the values are disabled if they 
+		are not available.</p>
+		<p style="text-align: center;">
+			<img class="aligncenter size-medium wp-image-88" alt="click_actions" src="assets/images/borders.png" />
+		</p>
+		
+		<h6>1.4 Click Action</h6>
+		<p>This option allows to select a click action. If you want nothing to happen when a marker or region is clicked, then 
+		select "None".</p>
+		
+		<h6>1.5 Map Styling</h6>
+		<p>The following options are available:</p>
+		<ul>
+			<li><strong>background color</strong> The background color for the main area of the map.</li>
+			<li><strong>dataless region color</strong> Colors to assign to regions with no associated data.</li>
+			<li><strong>height</strong> The height of the map. The default height is 250 pixels, unless the <strong>width</strong> 
+			option is specified and <strong>keep aspect ratio</strong> is selected - in which case the height is calculated 
+			accordingly when the map is loaded.</li>
+			<li><strong>width</strong> The width of the map. The default width is <strong>auto</strong>. In this case, the map will 
+			automatically resize and fit to the content arround it.</li>
+			<li><strong>keep aspect ratio</strong> If selected, the map will have its natural aspect ratio. If not, the map will 
+			stretch.</li>
+			<li><strong>region interactivity</strong> If selected, a region can be selected and can react to clicks. Note that this 
+			option has to be selected to execute a click action.</li>
+			<li><strong>border size</strong> Specifies a border size arround the map. Default is 0. Better results can often be 
+			achieved by creating a dummy click action and specify the css there.</li>
+			<li><strong>border color</strong> Specifies the border color.</li>
+		</ul>
+
+		<h6>1.6 Marker Styling</h6>
+		<p>If the map displays markers, the following options are available for the appearance:</p>
+		<ul>
+			<li><strong>Marker size</strong> This defines the size for all markers.</li>
+			<li><strong>Marker opacity</strong> This specifies the opacity of all markers.</li>
+		</ul>
+		
+		<h6>1.7 Tooltip Styling</h6>
+		<p>The following options are available:</p>
+		<ul>
+			<li><strong>Show tooltips</strong> If selected, this will show tooltips.</li>
+			<li><strong>Font color</strong> This specifies the font color for all tooltips.</li>
+			<li><strong>Font name</strong> This specifies the font name for all tooltips. The default value is 
+			<strong>&lt;global-font-name&gt;</strong>. In this case it will use the font from you WordPress theme.</li>
+			<li><strong>Font size</strong> This specifies the font size for all tooltips. The defailt value is 
+			<strong>&lt;global-font-size&gt;</strong>. In this case it will use the fontsize from you WordPress theme.</li>
+		</ul>
+		<p>Note that tooltips are only available for regions and markers from the data table. The tooltip title and text for a given 
+		marker or region can be changed in the data table form.</p>
+
+		<h5>2. Map Data Table</h5>
+		<p>The data table contains all the markers or regions that you want to display on the map. The appearance of the data table might 
+		change with the selected <strong>display mode</strong> (in 1.2).</p>
+		<p style="text-align: center;">
+			<img class="aligncenter size-medium wp-image-88" alt="click_actions" src="assets/images/_map_table.png" />
+		</p>
+		<p>To edit an entry from the table, you have to click on the row. A form should appear and should look like this:</p>
+		<p style="text-align: center;">
+			<img class="aligncenter size-medium wp-image-88" alt="click_actions" src="assets/images/_map_form.png" />
+		</p>
+		<p>You can edit the following values:</p>
+		<ul>
+			<li><strong>Location</strong> Sets location for the given region or marker. Depending on the selected 
+			<strong>display mode</strong>, the field might look different. In the coordinate mode you will also find a link "Find 
+			coordinates". A click shows a small text field which allows you to translate tha address or name of a location to coordinates. 
+			To check the correctness of the found coordinates, click on the "Change" button of the form and observe where the marker appears 
+			when the map is reloaded.</li>
+			<li><strong>Color</strong> Sets a color for the region or marker.</li>
+			<li><strong>Tooltip</strong> Sets the title and text for the tooltip. Note that the <strong>Show tooltips</strong> 
+			option must be activated. Otherwise the tooltip will not be visible.</li>
+			<li><strong>Click Value</strong> Sets the click value for the region or marker. The expected value depends on the selected 
+			click action. To get more details, click on "All Click Actions" in the left menu and read the description of the click value. 
+			A closer look at at the values from the sample data table might also help.</li>
+		</ul>
+		
+
+		<h5>3. Map Preview</h5>
+		<p>The preview renders the map for the given data and options. It updates automatically when an option or the data table changes. 
+		The following picture shows the preview area:</p>
+		<p style="text-align: center;">
+			<img class="aligncenter size-medium wp-image-88" alt="click_actions" src="assets/images/_preview_container.png" />
+		</p>
+		<p>The following options can be set for the preview area:</p>
+		<ul>
+			<li><strong>Preview click</strong> This defines what happens when you click on something in the preview. You have two options 
+			that can independently be enabled or disabled: The first one controls the execution of the click action. The second one controls 
+			the opening of the data table form. Note that the opening for regions only works if the <strong>region interactivity</strong> 
+			is activated.</li>
+			<li><strong>Preview width</strong> This simulates different page sizes. If the width in the Map Options is set to auto. Then the 
+			map should automatically resize and center itself.</li>
+			
+		</ul>
+		<p>Note also that these options only affect the preview. When the map is inserted somewhere later, the selected click action will 
+		always be executed.	If you want to add a marker or region to the map, you can hit the button <strong>"Add marker"</strong> or 
+		<strong>"Add region"</strong>. To edit a region or marker, it's often easier to click on the region or marker in the preview. Again, 
+		this only works when the <strong>region interactivity</strong> from the Map Options (1.5) is activated.</p>
+
+		<hr>
+		
+		<h3 id="actions"><strong>E) Click Actions</strong> - <a href="#toc">top</a></h3>
+		
+		<p>Click Actions allow you to add special behavior and custom styling to your map. To do so, you can add your own JavaScript, 
+		HTML and CSS.</p>
+		
+		<h5>1. Click Actions page</h5>
+		<p>The following picture shows the click actions page:</p>
+
+		<p style="text-align: center;">
+			<img class="aligncenter size-medium wp-image-88" alt="click_actions" src="assets/images/_click_actions_page.png" />
+		</p>
+		<p>The click actions page is divided into 3 areas:</p>
+		<ul>
+			<li><strong>List of Click Actions</strong> The list is found on the left side. A click on the name loads the example map and the 
+			description.</li>
+			<li><strong>An example map</strong> The map demonstrates what the click action does. This map is the same for all click actions: 
+			It shows Germany, Spain and Italy. The only difference is the specified click value for each country. The data table is hidden by 
+			default and can be displayed by clicking on "Show data table".</li>
+			<li><strong>Description</strong> This is located below the map and should describe what click actions does and what click values 
+			it is expecting.</li>
+		</ul>
+
+		<h5>2. Editing</h5>
+		<p>To edit a click action, you find the link "Edit" on top of the map container. The page will then switch to editing mode:</p>
+		<p style="text-align: center;">
+			<img class="aligncenter size-medium wp-image-88" alt="click_actions" src="assets/images/_click_actions_edit.png" />
+		</p>
+		<p>Besides the name and the description, there are four important values to edit.</p>
+
+		<h6>2.1 Data table</h6>
+		<p>There are three predefined countries for the example map: Germany, Spain and Italy. For each country, the click value can be edited. 
+		Note that these are the values that will be passed to the JavaScript when the region or marker is clicked.</p>
+		
+		<h6>2.2 Javascript</h6>
+		<p>Whenever a region or marker is clicked, the JavaScript code will be executed. This allows to add special behavior to your map. This 
+		can depend on the given click value. Besides the <strong>click value</strong>, there are also predefined variables for your JavaScript 
+		code. These are:</p>
+		
+		<table class="code_table">
+			<tr>
+				<th><pre><i>var</i> click_value; </pre></th><td><pre>// Click Value of the clicked region or marker.</pre></td>
+			</tr>
+			<tr>
+				<th><pre><i>var</i> i; </pre></th><td><pre>// The row number in the Data Table.</pre></td>
+			</tr>
+			<tr>
+				<th><pre><i>var</i> click_values; </pre></th><td><pre>// All other Click Values. click_values[i]=click_value</pre></td>
+			</tr>
+			<tr>
+				<th><pre><i>var</i> cssid; </pre></th><td><pre>// The generated value of the {cssid} placeholder in the HTML and CSS.</pre></td>
+			</tr>
+			<tr>
+				<th><pre><i>var</i> storage; </pre></th><td><pre>// Storage specifically for the clicked region/marker. Keeps the value until the next click. Initial value is null.</pre></td>
+			</tr>
+			<tr>
+				<th><pre><i>var</i> map_storage; </pre></th><td><pre>// Storage available to all clicked regions/markers. Keeps the value until the next click. Initial value is null.</pre></td>
+			</tr>
+			<tr>
+				<th><pre><i>var</i> jQuery, $; </pre></th><td><pre>// jQuery library. Version depends on the installed Wordpress version.</pre></td>
+			</tr>
+			<tr>
+				<th colspan="2">
+				<br>
+				<pre>//...your own code starts here...</pre>
+				</th>
+			</tr>
+		</table>
+		
+		<h6>2.3 HTML</h6>
+		<p>You can add your own HTML to the click action. This can be useful, if you want to display data somewhere around the map. There are two 
+		placeholder available for the HTML:</p>
+		<ol>
+			<li>
+				<strong>{cssid}:</strong> This will be replaced by an id when the map is rendered. For example, you could write:
+<pre class="lang:xhtml decode:true crayon-selected">&lt;div id="{cssid}"&gt;
+
+&lt;/div&gt;</pre>
+				This ensures that you don't conflict with other maps. You can easily find the element from your JavaScript with the following code:
+				<pre class="lang:js decode:true">jQuery("#" + cssid);</pre>
+			</li>
+			<li>
+				<strong>%%map%%: </strong>The second placeholder is required to be inserted somewhere in your HTML. This will be replaced by the 
+				generated HTML of the map. The default value of the HTML is the following:
+<pre class="lang:xhtml decode:true">&lt;div id="{cssid}"&gt;
+	%%map%%
+&lt;/div&gt;</pre>
+			</li>
+		</ol>
+
+		<h6>2.4 CSS</h6>
+		<p>The CSS has one placeholder:</p>
+		<ol>
+			<li>
+				<strong>{cssid}:</strong> This will also be replaced with the generated id. The default CSS is:
+<pre class="lang:css decode:true">#{cssid} {
+
+}</pre>
+			</li>
+		</ol>
+
+		<h6>2.5 Debugging</h6>
+		<p>Before saving, you can test the changes by clicking on "Update Preview". This reloads the example with the new data. A message box will 
+		appear, if there are errors in your JavaScript code.</p>
+		
+		<h5>3. Import</h5>
+		<p>The <strong>Text format</strong> is the only import method available for click actions. To import a click action, hit "Import" at 
+		the top of the click actions page. Insert the text and click on the "Import" button. The click action should automatically be 
+		inserted to the left menu.</p>
+		
+		<h5>4. Export</h5>
+		<p>To export a click action, make sure that the click action is selected in the left menu. Then hit the "Export" button 
+		above the map. A small window should open. Make sure that you copy the whole text from the textbox. Otherwise the import might fail, if 
+		you use an incomplete text.</p>
+		
+		<hr>
+		
+		<h3 id="imp_exp"><strong>F) Manage Maps</strong> - <a href="#toc">top</a></h3>
+
+		
+		<h5>1. Import</h5>
+		<p>Hit the button "Import" at the top of the "All Maps" page. A small window should open. The map can be importet in two ways:</p>
+		<ol>
+			<li><strong>File mode</strong>: Upload a file that contains the map. The file must be generated with this plugin.</li>
+			<li><strong>Text mode</strong>: Paste text into the text field. This allows to copy maps from one place to another using the clipboard. 
+			Note that the text has to be generated from the plugin.</li>
+		</ol>
+		<p>If you click on the "Import" button, the import data will be passed to the Map Builder. To complete the import process, click on "Add map".
+		Note that you might have to select a click action, because this is not imported.</p>
+
+		<h5>2. Import maps and click actions together</h5>
+		<p>If you want to import a map, you have to be aware that only the map is imported and not the selected click action. If you want to import 
+		both, we recommend to follow these steps:</p>
+		<ol>
+			<li>Import the click action.</li>
+			<li>Import the map. Then select the imported click action in the Map Builder. Before saving you can already test in the preview, if 
+			everthing works as supposed.</li>
+		</ol>
+		
+		<h5>3. Export</h5>
+		<p>To export a map, navigate to the "All Maps" page, hit the "More" button and click on "Export". A small window should open where you have 
+		to pick an export format. You have the following options:
+		<ul>
+			<li><strong>File</strong>: Use this to store a backup copy on your computer or to send this via email.</li>
+			<li><strong>Text</strong>: Use this if you want to copy the map via the clipboard (copy and paste on the same computer). </li>
+		</ul>
+		Note that the click action won't be saved and needs to be selected during the import process.</p>
+	
+		<h5>4. Delete</h5>
+		<p>To delete a map, navigate to the "All Maps" page, hit the "More" button and click on "Delete". A small window should open where you have 
+		to confirm the removal.</p>
+		
+		<h5>5. Copy</h5>
+		<p>To copy a map, navigate to the "All Maps" page, hit the "More" button and click on "Create a copy". The copy should be created and the table 
+		will update automatically. The copied map will be marked with a "new" label.</p>
+		
+		<hr>
+		
+		<p>Once again, thank you so much for purchasing this plugin. As I said at the beginning, I'd be glad to help you if you have any questions 
+		relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the plugins on CodeCanyon, 
+		you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<p class="append-bottom alt large"><strong>meisterpixel.com</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a> - <a href="http://www.meisterpixel.com/interactive-map-builder" target="_blank">meisterpixel.com/interactive-map-builder</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

@@ -1,0 +1,2359 @@
+# Copyright (C) 2013 TODO
+# This file is distributed under the same license as the TODO package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Interactive Map Builder\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/plugin-name\n"
+"POT-Creation-Date: 2014-09-25 12:29+0100\n"
+"PO-Revision-Date: 2014-09-25 12:35+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-interactive-map-builder.php:383
+msgid "Map could not be found and therefore not be cpoied."
+msgstr "Karte konnte nicht gefunden "
+
+#: class-interactive-map-builder.php:385 class-interactive-map-builder.php:498
+msgid ""
+"Sorry, but this is a demo and you have created too many maps. Come back "
+"later or edit an existing map."
+msgstr ""
+
+#: class-interactive-map-builder.php:390 class-interactive-map-builder.php:547
+#: views/manage_maps.php:15
+msgid "Map was successfully copied."
+msgstr "Karte wurde erfolgreich kopiert."
+
+#: class-interactive-map-builder.php:394
+msgid "Map couldn't be copied."
+msgstr "Karte konnte nicht kopiert werden."
+
+#: class-interactive-map-builder.php:416
+msgid "Map could not be found and therefore not be deleted."
+msgstr "Karte konnte nicht gefunden und daher nicht gelöscht werden."
+
+#: class-interactive-map-builder.php:418
+msgid "Map could not be deleted because of the demo mode."
+msgstr ""
+
+#: class-interactive-map-builder.php:422 views/manage_maps.php:13
+msgid "Map was successfully deleted."
+msgstr "Karte wurde erfolgreich gelöscht."
+
+#: class-interactive-map-builder.php:425
+msgid "Map couldn't be deleted."
+msgstr "Karte konnte nicht gelöscht werden."
+
+#: class-interactive-map-builder.php:439 class-interactive-map-builder.php:447
+#: class-interactive-map-builder.php:455 class-interactive-map-builder.php:463
+#: class-interactive-map-builder.php:471
+msgid "Map couldn't be saved, because the data was incomplete."
+msgstr ""
+"Karte konnte nicht gespeichert werden, da die Daten nicht vollständig waren."
+
+#: class-interactive-map-builder.php:518
+msgid "Map was successfully created and saved."
+msgstr "Karte wurde erfolgreich erstellt und gespeichert."
+
+#: class-interactive-map-builder.php:520
+msgid "Map was successfully saved."
+msgstr "Karte wurde erfolgreich gespeichert."
+
+#: class-interactive-map-builder.php:541
+msgid "Click Action could not be found and therefore not be copied."
+msgstr "Karte konnte nicht gefunden und daher nicht gelöscht werden."
+
+#: class-interactive-map-builder.php:544 class-interactive-map-builder.php:655
+msgid " - New"
+msgstr " - Neu"
+
+#: class-interactive-map-builder.php:551
+msgid "Click Action couldn't be copied."
+msgstr "Click Action konnte nicht kopiert werden."
+
+#: class-interactive-map-builder.php:580
+msgid "Click Action couldn't be saved: "
+msgstr "Click Action konnte nicht gespeichert werden."
+
+#: class-interactive-map-builder.php:585
+#, php-format
+msgid "All changes for %s were successfully saved."
+msgstr "Alle Änderungen für %s wurden erfolgreich gespeichert."
+
+#: class-interactive-map-builder.php:589
+#, php-format
+msgid "Changes for %s coundn't be saved."
+msgstr "Änderungen für %s konnten nicht gespeichert werden."
+
+#: class-interactive-map-builder.php:596
+msgid "Click Action couldn't be created: "
+msgstr "Click Action konnte nicht erstellt werden:"
+
+#: class-interactive-map-builder.php:598 class-interactive-map-builder.php:628
+#: class-interactive-map-builder.php:658
+msgid ""
+"Sorry, but this is a demo and you have created too many actions. Come back "
+"later or edit an existing action."
+msgstr ""
+
+#: class-interactive-map-builder.php:603
+msgid "Click Action was successfully created."
+msgstr "Click Action wurde erfolgreich erstellt."
+
+#: class-interactive-map-builder.php:607
+msgid "Click Action couldn't be created."
+msgstr "Click Action konnte nicht erstellt werden."
+
+#: class-interactive-map-builder.php:615
+msgid "Click Action could not be deleted because of the demo mode."
+msgstr ""
+
+#: class-interactive-map-builder.php:617
+#, php-format
+msgid "%s was successfully deleted."
+msgstr "%s wurde erfolgreich gelöscht."
+
+#: class-interactive-map-builder.php:621
+#, php-format
+msgid "%s coundn't be deleted."
+msgstr "%s konnte nicht gelöscht werden."
+
+#: class-interactive-map-builder.php:626
+msgid "Click Action couldn't be imported."
+msgstr "Click Action konnte nicht importiert werden."
+
+#: class-interactive-map-builder.php:636
+msgid "Click Action couldn't be imported:"
+msgstr "Click Action konnte nicht importiert werden."
+
+#: class-interactive-map-builder.php:642
+#, php-format
+msgid "%s was successfully imported."
+msgstr "%s wurde erfolgreich importiert."
+
+#: class-interactive-map-builder.php:646
+#, php-format
+msgid "Imported Action %s coundn't be saved."
+msgstr "Importierte Action %s konnte nicht gespeichert werden."
+
+#: class-interactive-map-builder.php:650
+msgid "Import Data doesn't seem to be valid."
+msgstr "Die Import-Daten scheinen nicht gültig zu sein."
+
+#: class-interactive-map-builder.php:660
+msgid "Click Action was successfully copied."
+msgstr "Click Action wurde erfolgreich kopiert."
+
+#: class-interactive-map-builder.php:665
+#, php-format
+msgid "Copy of %s coundn't be created."
+msgstr "Kopie von %s konnte nicht erstellt werden."
+
+#: class-interactive-map-builder.php:671
+msgid "Unknown request: "
+msgstr "Unbekannte Anfrage: "
+
+#: class-interactive-map-builder.php:948
+msgid "- For more detail: Select continent -"
+msgstr "- Für feinere Karte: Wähle Kontinent -"
+
+#: class-interactive-map-builder.php:949
+msgid "- For more detail: Select subcontinent -"
+msgstr "- Für feinere Karte: Wähle Subkontinent -"
+
+#: class-interactive-map-builder.php:950
+msgid "- For more detail: Select country -"
+msgstr "- Für feinere Karte: Wähle Land -"
+
+#: class-interactive-map-builder.php:951
+msgid "- For more detail: Select state -"
+msgstr "- Für feinere Karte: Wähle Provinz -"
+
+#: class-interactive-map-builder.php:952 views/map_builder.php:721
+#: views/map_builder.php:740
+msgid "Regions"
+msgstr "Regionen"
+
+#: class-interactive-map-builder.php:953
+msgid "Markers from text"
+msgstr "Markierungen als Text"
+
+#: class-interactive-map-builder.php:954
+msgid "Markers from coordinates"
+msgstr "Markierungen als Koordinaten"
+
+#: class-interactive-map-builder.php:955 views/manage_maps.php:54
+#: views/manage_maps.php:97 views/map_builder.php:731
+msgid "Text"
+msgstr ""
+
+#: class-interactive-map-builder.php:956 views/map_builder.php:675
+msgid "Countries"
+msgstr "Länder"
+
+#: class-interactive-map-builder.php:957
+msgid "Provinces"
+msgstr "Provinzen"
+
+#: class-interactive-map-builder.php:958
+msgid "Metros"
+msgstr "Ballungsräume"
+
+#: class-interactive-map-builder.php:959
+msgid "Continents"
+msgstr ""
+
+#: class-interactive-map-builder.php:960
+msgid "Subcontinents"
+msgstr ""
+
+#: class-interactive-map-builder.php:983
+msgid "Page Title"
+msgstr "Seiten Titel"
+
+#: class-interactive-map-builder.php:984
+msgid "I Map Builder"
+msgstr ""
+
+#: class-interactive-map-builder.php:994 class-interactive-map-builder.php:995
+msgid "All Maps"
+msgstr "Alle Karten"
+
+#: class-interactive-map-builder.php:1006
+#: class-interactive-map-builder.php:1007
+msgid "Map Builder"
+msgstr ""
+
+#: class-interactive-map-builder.php:1018
+#: class-interactive-map-builder.php:1019
+msgid "Map Templates"
+msgstr ""
+
+#: class-interactive-map-builder.php:1102
+#, php-format
+msgid "Copy of %s"
+msgstr "Kopie von %s"
+
+#: lib/click_action.php:69 views/map_builder.php:22
+msgid ""
+"This is the default template. This can be used to create a custom template. "
+"As soon as you start editing the HTML, CSS or HTML, it will automatically "
+"switch to \"custom template\". Note that you have to press \"Update preview"
+"\" below the JavaScript field in order to see any changes."
+msgstr ""
+
+#: lib/click_action.php:558
+msgid "Please pick a name for the click action. An empty field is not allowed."
+msgstr ""
+"Bitte einen Namen für die Click Action wählen. Ein leeres Feld ist nicht "
+"erlaubt."
+
+#: lib/click_action.php:560
+#, php-format
+msgid "Couldn't find %s in the HTML"
+msgstr "Es konnte %s nicht im HTML gefunden werden"
+
+#: lib/interactive_map.php:389
+msgid "(No title)"
+msgstr "(Kein Titel)"
+
+#: lib/map_options.php:74
+msgid "Background color is not valid."
+msgstr ""
+
+#: lib/map_options.php:77
+msgid "Border color is not valid."
+msgstr ""
+
+#: lib/map_options.php:80
+msgid "Border width is not valid."
+msgstr ""
+
+#: lib/map_options.php:83
+msgid "Dataless region color is not valid."
+msgstr ""
+
+#: lib/map_options.php:86
+msgid "Region interactivity couldn't be set."
+msgstr ""
+
+#: lib/map_options.php:89
+msgid "Height is not valid."
+msgstr ""
+
+#: lib/map_options.php:92
+msgid "Value to keep aspect ratio couldn't be set."
+msgstr ""
+
+#: lib/map_options.php:95
+msgid "Combination of region und resolution are not valid."
+msgstr ""
+
+#: lib/map_options.php:98
+msgid "Marker opacity is not valid."
+msgstr ""
+
+#: lib/map_options.php:101
+msgid "Marker size is not valid."
+msgstr ""
+
+#: lib/map_options.php:104
+msgid "Tooltips could not be set."
+msgstr ""
+
+#: lib/map_options.php:107
+msgid "Tooltip color is not valid."
+msgstr ""
+
+#: lib/map_options.php:110
+msgid "Tooltip font is not valid."
+msgstr ""
+
+#: lib/map_options.php:113
+msgid "Tooltip font size is not valid."
+msgstr ""
+
+#: lib/map_options.php:116
+msgid "Tooltip trigger is not valid."
+msgstr ""
+
+#: lib/map_options.php:119
+msgid "Tooltip html is not valid."
+msgstr ""
+
+#: lib/map_options.php:122
+msgid "Width is not valid."
+msgstr ""
+
+#: lib/map_regions.php:29 views/map_builder.php:633 views/map_builder.php:640
+msgid "World"
+msgstr "Welt"
+
+#: lib/map_regions.php:33
+msgid "Africa"
+msgstr "Afrika"
+
+#: lib/map_regions.php:34
+msgid "Americas"
+msgstr "Nord- und Südamerika"
+
+#: lib/map_regions.php:35
+msgid "Asia"
+msgstr "Asien"
+
+#: lib/map_regions.php:36
+msgid "Europe"
+msgstr "Europa"
+
+#: lib/map_regions.php:37
+msgid "Oceania"
+msgstr "Ozeanien"
+
+#: lib/map_regions.php:42
+msgid "Northern Africa"
+msgstr "Nordafrika"
+
+#: lib/map_regions.php:43
+msgid "Western Africa"
+msgstr "Westafrika"
+
+#: lib/map_regions.php:44
+msgid "Middle Africa"
+msgstr "Mittelafrika"
+
+#: lib/map_regions.php:45
+msgid "Eastern Africa"
+msgstr "Ostafrika"
+
+#: lib/map_regions.php:46
+msgid "Southern Africa"
+msgstr "Südafrika"
+
+#: lib/map_regions.php:50
+msgid "Northern America"
+msgstr "Nordamerika"
+
+#: lib/map_regions.php:51
+msgid "Caribbean"
+msgstr "Karibik"
+
+#: lib/map_regions.php:52
+msgid "Central America"
+msgstr "Zentralamerika"
+
+#: lib/map_regions.php:53
+msgid "South America"
+msgstr "Südamerika"
+
+#: lib/map_regions.php:57
+msgid "Central Asia"
+msgstr "Zentralasien"
+
+#: lib/map_regions.php:58
+msgid "Eastern Asia"
+msgstr "Ostasien"
+
+#: lib/map_regions.php:59
+msgid "Southern Asia"
+msgstr "Südasien"
+
+#: lib/map_regions.php:60
+msgid "South-Eastern Asia"
+msgstr "Südostasien"
+
+#: lib/map_regions.php:61
+msgid "Western Asia"
+msgstr "Westasien"
+
+#: lib/map_regions.php:65
+msgid "Northern Europe"
+msgstr "Nordeuropa"
+
+#: lib/map_regions.php:66
+msgid "Western Europe"
+msgstr "Westeuropa"
+
+#: lib/map_regions.php:67
+msgid "Eastern Europe"
+msgstr "Osteuropa"
+
+#: lib/map_regions.php:68
+msgid "Southern Europe"
+msgstr "Südeuropa"
+
+#: lib/map_regions.php:72
+msgid "Australia and New Zealand"
+msgstr "Australien und Neuseeland"
+
+#: lib/map_regions.php:73
+msgid "Melanesia"
+msgstr "Melanesien"
+
+#: lib/map_regions.php:74
+msgid "Micronesia"
+msgstr "Mikronesien"
+
+#: lib/map_regions.php:75
+msgid "Polynesia"
+msgstr "Polynesien"
+
+#: lib/map_regions.php:79
+msgid "Algeria"
+msgstr "Algerien"
+
+#: lib/map_regions.php:80
+msgid "Egypt"
+msgstr "Ägypten"
+
+#: lib/map_regions.php:81
+msgid "Western Sahara"
+msgstr "Westsahara"
+
+#: lib/map_regions.php:82
+msgid "Libya"
+msgstr "Libyen"
+
+#: lib/map_regions.php:83
+msgid "Morocco"
+msgstr "Marokko"
+
+#: lib/map_regions.php:84
+msgid "Sudan"
+msgstr "Sudan"
+
+#: lib/map_regions.php:85
+msgid "Tunisia"
+msgstr "Tunesien"
+
+#: lib/map_regions.php:89
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: lib/map_regions.php:90
+msgid "Benin"
+msgstr "Benin"
+
+#: lib/map_regions.php:91
+msgid "Côte d'Ivoire"
+msgstr "Elfenbeinküste"
+
+#: lib/map_regions.php:92
+msgid "Cape Verde"
+msgstr "Kapverdische Inseln"
+
+#: lib/map_regions.php:93
+msgid "Ghana"
+msgstr "Ghana"
+
+#: lib/map_regions.php:94
+msgid "Gambia"
+msgstr "Gambia"
+
+#: lib/map_regions.php:95
+msgid "Guinea"
+msgstr "Guinea"
+
+#: lib/map_regions.php:96
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#: lib/map_regions.php:97
+msgid "Liberia"
+msgstr "Liberia"
+
+#: lib/map_regions.php:98
+msgid "Mali"
+msgstr "Mali"
+
+#: lib/map_regions.php:99
+msgid "Mauritania"
+msgstr "Mauretanien"
+
+#: lib/map_regions.php:100
+msgid "Niger"
+msgstr "Niger"
+
+#: lib/map_regions.php:101
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: lib/map_regions.php:102
+msgid "Saint Helena, Ascension and Tristan da Cunha"
+msgstr "St. Helena, Ascension und Tristan da Cunha"
+
+#: lib/map_regions.php:103
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: lib/map_regions.php:104
+msgid "Senegal"
+msgstr "Senegal"
+
+#: lib/map_regions.php:105
+msgid "Togo"
+msgstr "Togo"
+
+#: lib/map_regions.php:109
+msgid "Angola"
+msgstr "Angola"
+
+#: lib/map_regions.php:110
+msgid "Congo, the Democratic Republic of the"
+msgstr "Kongo, Demokratische Republik"
+
+#: lib/map_regions.php:112
+msgid "Central African Republic"
+msgstr "Zentralafrikanische Republik"
+
+#: lib/map_regions.php:113
+msgid "Congo"
+msgstr "Kongo "
+
+#: lib/map_regions.php:114
+msgid "Cameroon"
+msgstr "Kamerun"
+
+#: lib/map_regions.php:115
+msgid "Gabon"
+msgstr "Gabun"
+
+#: lib/map_regions.php:116
+msgid "Equatorial Guinea"
+msgstr "Äquatorialguinea"
+
+#: lib/map_regions.php:117
+msgid "Sao Tome and Principe"
+msgstr "São Tomé und Príncipe"
+
+#: lib/map_regions.php:118
+msgid "Chad"
+msgstr "Tschad"
+
+#: lib/map_regions.php:122
+msgid "Burundi"
+msgstr "Burundi"
+
+#: lib/map_regions.php:123
+msgid "Djibouti"
+msgstr "Dschibuti"
+
+#: lib/map_regions.php:124
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: lib/map_regions.php:125
+msgid "Ethiopia"
+msgstr "Äthiopien"
+
+#: lib/map_regions.php:126
+msgid "Kenya"
+msgstr "Kenia"
+
+#: lib/map_regions.php:127
+msgid "Comoros"
+msgstr "Komoren"
+
+#: lib/map_regions.php:128
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+#: lib/map_regions.php:129
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: lib/map_regions.php:130
+msgid "Malawi"
+msgstr "Malawi"
+
+#: lib/map_regions.php:131
+msgid "Mozambique"
+msgstr "Mosambik"
+
+#: lib/map_regions.php:132
+msgid "Réunion"
+msgstr "Réunion"
+
+#: lib/map_regions.php:133
+msgid "Rwanda"
+msgstr "Ruanda"
+
+#: lib/map_regions.php:134
+msgid "Seychelles"
+msgstr "Seychellen"
+
+#: lib/map_regions.php:135
+msgid "Somalia"
+msgstr "Somalia"
+
+#: lib/map_regions.php:136
+msgid "Tanzania"
+msgstr "Tansania"
+
+#: lib/map_regions.php:137
+msgid "Uganda"
+msgstr "Uganda"
+
+#: lib/map_regions.php:138
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: lib/map_regions.php:139
+msgid "Zambia"
+msgstr "Sambia"
+
+#: lib/map_regions.php:140
+msgid "Zimbabwe"
+msgstr "Simbabwe"
+
+#: lib/map_regions.php:144
+msgid "Botswana"
+msgstr "Botswana"
+
+#: lib/map_regions.php:145
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: lib/map_regions.php:146
+msgid "Namibia"
+msgstr "Namibia"
+
+#: lib/map_regions.php:147
+msgid "Swaziland"
+msgstr "Swasiland"
+
+#: lib/map_regions.php:148
+msgid "South Africa"
+msgstr "Südafrika"
+
+#: lib/map_regions.php:153
+msgid "Bermuda"
+msgstr "Bermudainseln"
+
+#: lib/map_regions.php:154
+msgid "Canada"
+msgstr "Kanada"
+
+#: lib/map_regions.php:155
+msgid "Greenland"
+msgstr "Grönland"
+
+#: lib/map_regions.php:156
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint-Pierre und Miquelon"
+
+#: lib/map_regions.php:157
+msgid "United States"
+msgstr "Vereinigte Staaten"
+
+#: lib/map_regions.php:161
+msgid "Antigua and Barbuda"
+msgstr "Antigua und Barbuda"
+
+#: lib/map_regions.php:162
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: lib/map_regions.php:164
+msgid "Aruba"
+msgstr "Aruba"
+
+#: lib/map_regions.php:165
+msgid "Barbados"
+msgstr "Barbados"
+
+#: lib/map_regions.php:166
+msgid "Saint Barthélemy"
+msgstr "Saint Barthélemy"
+
+#: lib/map_regions.php:167
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: lib/map_regions.php:168
+msgid "Cuba"
+msgstr "Kuba"
+
+#: lib/map_regions.php:169
+msgid "Dominica"
+msgstr "Dominica"
+
+#: lib/map_regions.php:170
+msgid "Dominican Republic"
+msgstr "Dominikanische Republik"
+
+#: lib/map_regions.php:171
+msgid "Grenada"
+msgstr "Grenada"
+
+#: lib/map_regions.php:172
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+#: lib/map_regions.php:173
+msgid "Haiti"
+msgstr "Haiti"
+
+#: lib/map_regions.php:174
+msgid "Jamaica"
+msgstr "Jamaika"
+
+#: lib/map_regions.php:175
+msgid "Saint Kitts and Nevis"
+msgstr "St. Kitts und Nevis"
+
+#: lib/map_regions.php:176
+msgid "Cayman Islands"
+msgstr "Cayman Islands"
+
+#: lib/map_regions.php:177
+msgid "Saint Lucia"
+msgstr "St. Lucia"
+
+#: lib/map_regions.php:178
+msgid "Saint Martin (French part)"
+msgstr "St. Martin (französischer Teil)"
+
+#: lib/map_regions.php:179
+msgid "Martinique"
+msgstr "Martinique"
+
+#: lib/map_regions.php:180
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: lib/map_regions.php:181
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: lib/map_regions.php:182
+msgid "Turks and Caicos Islands"
+msgstr "Turks- und Caicosinseln"
+
+#: lib/map_regions.php:183
+msgid "Trinidad and Tobago"
+msgstr "Trinidad und Tobago"
+
+#: lib/map_regions.php:184
+msgid "Saint Vincent and the Grenadines"
+msgstr "St. Vincent und die Grenadinen"
+
+#: lib/map_regions.php:185
+msgid "Virgin Islands, British"
+msgstr "Jungferninseln, britisch"
+
+#: lib/map_regions.php:186
+msgid "Virgin Islands, U.S."
+msgstr "Jungferninseln, amerikanisch"
+
+#: lib/map_regions.php:190
+msgid "Belize"
+msgstr "Belize"
+
+#: lib/map_regions.php:191
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: lib/map_regions.php:192
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: lib/map_regions.php:193
+msgid "Honduras"
+msgstr "Honduras"
+
+#: lib/map_regions.php:194
+msgid "Mexico"
+msgstr "Mexiko"
+
+#: lib/map_regions.php:195
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: lib/map_regions.php:196
+msgid "Panama"
+msgstr "Panama"
+
+#: lib/map_regions.php:197
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: lib/map_regions.php:201
+msgid "Argentina"
+msgstr "Argentinien"
+
+#: lib/map_regions.php:202
+msgid "Bolivia"
+msgstr "Bolivien"
+
+#: lib/map_regions.php:203
+msgid "Brazil"
+msgstr "Brasilien"
+
+#: lib/map_regions.php:204
+msgid "Chile"
+msgstr "Chile"
+
+#: lib/map_regions.php:205
+msgid "Colombia"
+msgstr "Kolumbien"
+
+#: lib/map_regions.php:206
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: lib/map_regions.php:207
+msgid "Falkland Islands (Malvinas)"
+msgstr "Falklandinseln  (Malwinen)"
+
+#: lib/map_regions.php:208
+msgid "French Guiana"
+msgstr "Französisch-Guayana"
+
+#: lib/map_regions.php:209
+msgid "Guyana"
+msgstr "Guyana"
+
+#: lib/map_regions.php:210
+msgid "Peru"
+msgstr "Peru"
+
+#: lib/map_regions.php:211
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: lib/map_regions.php:212
+msgid "Suriname"
+msgstr "Surinam"
+
+#: lib/map_regions.php:213
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: lib/map_regions.php:214
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: lib/map_regions.php:219
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: lib/map_regions.php:220
+msgid "Tajikistan"
+msgstr "Tadschikistan"
+
+#: lib/map_regions.php:221
+msgid "Kyrgyzstan"
+msgstr "Kirgisistan"
+
+#: lib/map_regions.php:222
+msgid "Kazakhstan"
+msgstr "Kasachstan"
+
+#: lib/map_regions.php:223
+msgid "Uzbekistan"
+msgstr "Usbekistan"
+
+#: lib/map_regions.php:227
+msgid "China"
+msgstr "China"
+
+#: lib/map_regions.php:228
+msgid "Hong Kong"
+msgstr "Hongkong"
+
+#: lib/map_regions.php:229
+msgid "Japan"
+msgstr "Japan"
+
+#: lib/map_regions.php:230
+msgid "North Korea"
+msgstr "Nordkorea"
+
+#: lib/map_regions.php:231
+msgid "South Korea"
+msgstr "Südkorea"
+
+#: lib/map_regions.php:232
+msgid "Mongolia"
+msgstr "Mongolei"
+
+#: lib/map_regions.php:233
+msgid "Macao"
+msgstr "Macau"
+
+#: lib/map_regions.php:234
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: lib/map_regions.php:238
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+#: lib/map_regions.php:239
+msgid "Bangladesh"
+msgstr "Bangladesch"
+
+#: lib/map_regions.php:240
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: lib/map_regions.php:241
+msgid "India"
+msgstr "Indien"
+
+#: lib/map_regions.php:242
+msgid "Iran"
+msgstr "Iran"
+
+#: lib/map_regions.php:243
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: lib/map_regions.php:244
+msgid "Maldives"
+msgstr "Malediven"
+
+#: lib/map_regions.php:245
+msgid "Nepal"
+msgstr "Nepal"
+
+#: lib/map_regions.php:246
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: lib/map_regions.php:250
+msgid "Brunei"
+msgstr "Brunei"
+
+#: lib/map_regions.php:251
+msgid "Indonesia"
+msgstr "Indonesien"
+
+#: lib/map_regions.php:252
+msgid "Cambodia"
+msgstr "Kambodscha"
+
+#: lib/map_regions.php:253
+msgid "Laos"
+msgstr "Laos"
+
+#: lib/map_regions.php:254
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: lib/map_regions.php:256
+msgid "Malaysia"
+msgstr "Malaysia"
+
+#: lib/map_regions.php:257
+msgid "Philippines"
+msgstr "Philippinen"
+
+#: lib/map_regions.php:258
+msgid "Singapore"
+msgstr "Singapur"
+
+#: lib/map_regions.php:259
+msgid "Thailand"
+msgstr "Thailand"
+
+#: lib/map_regions.php:260
+msgid "Timor-Leste"
+msgstr "Osttimor"
+
+#: lib/map_regions.php:262
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: lib/map_regions.php:266
+msgid "United Arab Emirates"
+msgstr "Vereinigte Arabische Emirate"
+
+#: lib/map_regions.php:267
+msgid "Armenia"
+msgstr "Armenien"
+
+#: lib/map_regions.php:268
+msgid "Azerbaijan"
+msgstr "Aserbaidschan"
+
+#: lib/map_regions.php:269
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: lib/map_regions.php:270
+msgid "Cyprus"
+msgstr "Zypern"
+
+#: lib/map_regions.php:271
+msgctxt "Country"
+msgid "Georgia"
+msgstr "Georgien"
+
+#: lib/map_regions.php:272
+msgid "Israel"
+msgstr "Israel"
+
+#: lib/map_regions.php:273
+msgid "Iraq"
+msgstr "Irak"
+
+#: lib/map_regions.php:274
+msgid "Jordan"
+msgstr "Jordanien"
+
+#: lib/map_regions.php:275
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: lib/map_regions.php:276
+msgid "Lebanon"
+msgstr "Libanon"
+
+#: lib/map_regions.php:277
+msgid "Oman"
+msgstr "Oman"
+
+#: lib/map_regions.php:278
+msgid "Palestine, State of"
+msgstr "Palästina"
+
+#: lib/map_regions.php:279
+msgid "Qatar"
+msgstr "Qatar"
+
+#: lib/map_regions.php:280
+msgid "Saudi Arabia"
+msgstr "Saudi-Arabien"
+
+#: lib/map_regions.php:282
+msgid "Syria"
+msgstr "Syrien"
+
+#: lib/map_regions.php:283
+msgid "Turkey"
+msgstr "Türkei"
+
+#: lib/map_regions.php:284
+msgid "Yemen"
+msgstr "Jemen"
+
+#: lib/map_regions.php:289
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: lib/map_regions.php:290
+msgid "Jersey"
+msgstr "Jersey"
+
+#: lib/map_regions.php:291
+msgid "Åland"
+msgstr "Åland"
+
+#: lib/map_regions.php:292
+msgid "Denmark"
+msgstr "Dänemark"
+
+#: lib/map_regions.php:293
+msgid "Estonia"
+msgstr "Estland"
+
+#: lib/map_regions.php:294
+msgid "Finland"
+msgstr "Finnland"
+
+#: lib/map_regions.php:295
+msgid "Faroe Islands"
+msgstr "Färöer"
+
+#: lib/map_regions.php:296
+msgid "United Kingdom"
+msgstr "Großbritannien"
+
+#: lib/map_regions.php:297
+msgid "Ireland"
+msgstr "Irland"
+
+#: lib/map_regions.php:298
+msgid "Isle of Man"
+msgstr "Isle of Man"
+
+#: lib/map_regions.php:299
+msgid "Iceland"
+msgstr "Island"
+
+#: lib/map_regions.php:300
+msgid "Lithuania"
+msgstr "Litauen"
+
+#: lib/map_regions.php:301
+msgid "Latvia"
+msgstr "Lettland"
+
+#: lib/map_regions.php:302
+msgid "Norway"
+msgstr "Norwegen"
+
+#: lib/map_regions.php:303
+msgid "Sweden"
+msgstr "Schweden"
+
+#: lib/map_regions.php:304
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard und Jan Mayen"
+
+#: lib/map_regions.php:308
+msgid "Austria"
+msgstr "Österreich"
+
+#: lib/map_regions.php:309
+msgid "Belgium"
+msgstr "Belgien"
+
+#: lib/map_regions.php:310
+msgid "Switzerland"
+msgstr "Schweiz"
+
+#: lib/map_regions.php:311 views/click_actions.php:315
+msgid "Germany"
+msgstr "Deutschland"
+
+#: lib/map_regions.php:313
+msgid "France"
+msgstr "Frankreich"
+
+#: lib/map_regions.php:315
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: lib/map_regions.php:316
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+#: lib/map_regions.php:317
+msgid "Monaco"
+msgstr "Monaco"
+
+#: lib/map_regions.php:318
+msgid "Netherlands"
+msgstr "Niederlande"
+
+#: lib/map_regions.php:322
+msgid "Bulgaria"
+msgstr "Bulgarien"
+
+#: lib/map_regions.php:323
+msgid "Belarus"
+msgstr "Weißrussland"
+
+#: lib/map_regions.php:324
+msgid "Czech Republic"
+msgstr "Tschechien"
+
+#: lib/map_regions.php:325
+msgid "Hungary"
+msgstr "Ungarn"
+
+#: lib/map_regions.php:326
+msgid "Moldova"
+msgstr "Moldawien"
+
+#: lib/map_regions.php:327
+msgid "Poland"
+msgstr "Polen"
+
+#: lib/map_regions.php:328
+msgid "Romania"
+msgstr "Rumänien"
+
+#: lib/map_regions.php:329
+msgid "Russia"
+msgstr "Russland"
+
+#: lib/map_regions.php:331
+msgid "Slovakia"
+msgstr "Slowakei"
+
+#: lib/map_regions.php:332
+msgid "Ukraine"
+msgstr "Ukraine"
+
+#: lib/map_regions.php:336
+msgid "Andorra"
+msgstr "Andorra"
+
+#: lib/map_regions.php:337
+msgid "Albania"
+msgstr "Albanien"
+
+#: lib/map_regions.php:338
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnien-Herzegowina"
+
+#: lib/map_regions.php:339 views/click_actions.php:320
+msgid "Spain"
+msgstr "Spanien"
+
+#: lib/map_regions.php:340
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: lib/map_regions.php:341
+msgid "Greece"
+msgstr "Griechenland"
+
+#: lib/map_regions.php:342
+msgid "Croatia"
+msgstr "Kroatien"
+
+#: lib/map_regions.php:343 views/click_actions.php:325
+msgid "Italy"
+msgstr "Italien"
+
+#: lib/map_regions.php:344
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: lib/map_regions.php:345
+msgid "Macedonia"
+msgstr "Mazedonien"
+
+#: lib/map_regions.php:346
+msgid "Malta"
+msgstr "Malta"
+
+#: lib/map_regions.php:348
+msgid "Serbia"
+msgstr "Serbien"
+
+#: lib/map_regions.php:349
+msgid "Portugal"
+msgstr "Portugal"
+
+#: lib/map_regions.php:350
+msgid "Slovenia"
+msgstr "Slowenien"
+
+#: lib/map_regions.php:351
+msgid "San Marino"
+msgstr "San Marino"
+
+#: lib/map_regions.php:352
+msgid "Holy See (Vatican City State)"
+msgstr "Heiliger Stuhl (Vatikanstadt Staat)"
+
+#: lib/map_regions.php:357
+msgid "Australia"
+msgstr "Australien"
+
+#: lib/map_regions.php:358
+msgid "Norfolk Island"
+msgstr "Norfolkinsel"
+
+#: lib/map_regions.php:359
+msgid "New Zealand"
+msgstr "Neuseeland"
+
+#: lib/map_regions.php:363
+msgid "Fiji"
+msgstr "Fidschi"
+
+#: lib/map_regions.php:364
+msgid "New Caledonia"
+msgstr "Neukaledonien"
+
+#: lib/map_regions.php:365
+msgid "Papua New Guinea"
+msgstr "Papua-Neuguinea"
+
+#: lib/map_regions.php:366
+msgid "Solomon Islands"
+msgstr "Salomonen"
+
+#: lib/map_regions.php:367
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: lib/map_regions.php:371
+msgid "Micronesia, Federated States of"
+msgstr "Mikronesien, Föderierte Staaten von"
+
+#: lib/map_regions.php:372
+msgid "Guam"
+msgstr "Guam"
+
+#: lib/map_regions.php:373
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: lib/map_regions.php:374
+msgid "Marshall Islands"
+msgstr "Marshallinseln"
+
+#: lib/map_regions.php:375
+msgid "Northern Mariana Islands"
+msgstr "Nördliche Marianen"
+
+#: lib/map_regions.php:376
+msgid "Nauru"
+msgstr "Nauru"
+
+#: lib/map_regions.php:377
+msgid "Palau"
+msgstr "Palau"
+
+#: lib/map_regions.php:381
+msgid "American Samoa"
+msgstr "Amerikanisch-Samoa"
+
+#: lib/map_regions.php:382
+msgid "Cook Islands"
+msgstr "Cookinseln"
+
+#: lib/map_regions.php:383
+msgid "Niue"
+msgstr "Niue"
+
+#: lib/map_regions.php:384
+msgid "French Polynesia"
+msgstr "Französisch-Polynesien"
+
+#: lib/map_regions.php:385
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: lib/map_regions.php:386
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: lib/map_regions.php:387
+msgid "Tonga"
+msgstr "Tonga"
+
+#: lib/map_regions.php:388
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: lib/map_regions.php:389
+msgid "Wallis and Futuna"
+msgstr "Wallis und Futuna"
+
+#: lib/map_regions.php:390
+msgid "Samoa"
+msgstr "Samoa"
+
+#: lib/map_regions.php:394
+msgid "Alabama"
+msgstr "Alabama"
+
+#: lib/map_regions.php:395
+msgid "Alaska"
+msgstr "Alaska"
+
+#: lib/map_regions.php:396
+msgid "Arizona"
+msgstr "Arizona"
+
+#: lib/map_regions.php:397
+msgid "Arkansas"
+msgstr "Arkansas"
+
+#: lib/map_regions.php:398
+msgid "California"
+msgstr "Kalifornien"
+
+#: lib/map_regions.php:399
+msgid "Colorado"
+msgstr "Colorado"
+
+#: lib/map_regions.php:400
+msgid "Connecticut"
+msgstr "Connecticut"
+
+#: lib/map_regions.php:401
+msgid "Delaware"
+msgstr "Delaware"
+
+#: lib/map_regions.php:402
+msgid "Florida"
+msgstr "Florida"
+
+#: lib/map_regions.php:403
+msgctxt "US-State"
+msgid "Georgia"
+msgstr "Georgia"
+
+#: lib/map_regions.php:404
+msgid "Hawaii"
+msgstr "Hawaii"
+
+#: lib/map_regions.php:405
+msgid "Idaho"
+msgstr "Idaho"
+
+#: lib/map_regions.php:406
+msgid "Illinois"
+msgstr "Illinois"
+
+#: lib/map_regions.php:407
+msgid "Indiana"
+msgstr "Indiana"
+
+#: lib/map_regions.php:408
+msgid "Iowa"
+msgstr "Iowa"
+
+#: lib/map_regions.php:409
+msgid "Kansas"
+msgstr "Kansas"
+
+#: lib/map_regions.php:410
+msgid "Kentucky"
+msgstr "Kentucky"
+
+#: lib/map_regions.php:411
+msgid "Louisiana"
+msgstr "Louisiana"
+
+#: lib/map_regions.php:412
+msgid "Maine"
+msgstr "Maine"
+
+#: lib/map_regions.php:413
+msgid "Maryland"
+msgstr "Maryland"
+
+#: lib/map_regions.php:414
+msgid "Massachusetts"
+msgstr "Massachusetts"
+
+#: lib/map_regions.php:415
+msgid "Michigan"
+msgstr "Michigan"
+
+#: lib/map_regions.php:416
+msgid "Minnesota"
+msgstr "Minnesota"
+
+#: lib/map_regions.php:417
+msgid "Mississippi"
+msgstr "Mississippi"
+
+#: lib/map_regions.php:418
+msgid "Missouri"
+msgstr "Missouri"
+
+#: lib/map_regions.php:419
+msgid "Montana"
+msgstr "Montana"
+
+#: lib/map_regions.php:420
+msgid "Nebraska"
+msgstr "Nebraska"
+
+#: lib/map_regions.php:421
+msgid "Nevada"
+msgstr "Nevada"
+
+#: lib/map_regions.php:422
+msgid "New Hampshire"
+msgstr "New Hampshire \t"
+
+#: lib/map_regions.php:423
+msgid "New Jersey"
+msgstr "New Jersey"
+
+#: lib/map_regions.php:424
+msgid "New Mexico"
+msgstr "New Mexico"
+
+#: lib/map_regions.php:425
+msgid "New York"
+msgstr "New York"
+
+#: lib/map_regions.php:426
+msgid "North Carolina"
+msgstr "North Carolina"
+
+#: lib/map_regions.php:427
+msgid "North Dakota"
+msgstr "North Dakota"
+
+#: lib/map_regions.php:428
+msgid "Ohio"
+msgstr "Ohio"
+
+#: lib/map_regions.php:429
+msgid "Oklahoma"
+msgstr "Oklahoma"
+
+#: lib/map_regions.php:430
+msgid "Oregon"
+msgstr "Oregon"
+
+#: lib/map_regions.php:431
+msgid "Pennsylvania"
+msgstr "Pennsylvania"
+
+#: lib/map_regions.php:432
+msgid "Rhode Island"
+msgstr "Rhode Island"
+
+#: lib/map_regions.php:433
+msgid "South Carolina"
+msgstr "South Carolina"
+
+#: lib/map_regions.php:434
+msgid "South Dakota"
+msgstr "South Dakota"
+
+#: lib/map_regions.php:435
+msgid "Tennessee"
+msgstr "Tennessee"
+
+#: lib/map_regions.php:436
+msgid "Texas"
+msgstr "Texas"
+
+#: lib/map_regions.php:437
+msgid "Utah"
+msgstr "Utah"
+
+#: lib/map_regions.php:438
+msgid "Vermont"
+msgstr "Vermont"
+
+#: lib/map_regions.php:439
+msgid "Virginia"
+msgstr "Virginia"
+
+#: lib/map_regions.php:440
+msgid "Washington"
+msgstr "Washington"
+
+#: lib/map_regions.php:441
+msgid "West Virginia"
+msgstr "West Virginia"
+
+#: lib/map_regions.php:442
+msgid "Wisconsin"
+msgstr "Wisconsin"
+
+#: lib/map_regions.php:443
+msgid "Wyoming"
+msgstr "Wyoming"
+
+#: lib/map_regions.php:444
+msgid "District of Columbia"
+msgstr "District of Columbia"
+
+#: lib/virtual-composer.php:26
+msgid "Interactive Map Builder"
+msgstr ""
+
+#: lib/virtual-composer.php:27
+msgid "Insert a map"
+msgstr "Karte einfügen"
+
+#: lib/virtual-composer.php:31
+msgid "Content"
+msgstr ""
+
+#: lib/virtual-composer.php:38
+msgid "Map to display"
+msgstr ""
+
+#: lib/virtual-composer.php:41
+msgid "Choose one of your created maps. <br> <a href='"
+msgstr ""
+
+#: views/click_actions.php:82
+msgid "Add Click Action"
+msgstr "Click Action hinzufügen"
+
+#: views/click_actions.php:83 views/click_actions.php:153
+#: views/manage_maps.php:6 views/manage_maps.php:67 views/manage_maps.php:80
+msgid "Import"
+msgstr "Importieren"
+
+#: views/click_actions.php:88
+msgid "Click Action caused a JavaScript error:"
+msgstr "Click Action verursacht einen JavaScript-Fehler:"
+
+#: views/click_actions.php:94
+#, php-format
+msgid "Click Action caused a JavaScript error in line %1$s:"
+msgstr "Click Action verursacht einen JavaScript-Fehler in Zeile %1$s:"
+
+#: views/click_actions.php:101 views/manage_maps.php:22
+msgid "The answer from the server was incomplete."
+msgstr "Die Antwort vom Server war unvollständig."
+
+#: views/click_actions.php:102 views/manage_maps.php:18
+msgid ""
+"Could not get an answer from the server. Check your internet connection and "
+"retry."
+msgstr ""
+"Der Server antwortet nicht auf die Anfrage. Überprüfen Sie die "
+"Internetverbindung und wiederholen den Vorgang."
+
+#: views/click_actions.php:103 views/manage_maps.php:19
+msgid "An error occurred."
+msgstr "Es ist ein Fehler aufgetreten."
+
+#: views/click_actions.php:104 views/manage_maps.php:20
+msgid "The request has been aborted."
+msgstr "Die Anfrage wurde abgebrochen."
+
+#: views/click_actions.php:105 views/manage_maps.php:21
+msgid "An error occurred on the server. "
+msgstr "Es ist ein Fehler auf dem Server aufgetreten."
+
+#: views/click_actions.php:129 views/manage_maps.php:32
+msgid "Please confirm"
+msgstr "Bitte bestätigen"
+
+#: views/click_actions.php:133 views/manage_maps.php:36
+#, php-format
+msgid "Are you sure you want to delete %s? This cannot be undone."
+msgstr ""
+"Soll %s wirklich gelöscht werden? Dies kann nicht rückgängig gemacht werden."
+
+#: views/click_actions.php:137 views/click_actions.php:188
+#: views/manage_maps.php:40 views/manage_maps.php:240
+#: views/map_builder.php:456 views/map_builder.php:598
+msgid "Delete"
+msgstr "Löschen"
+
+#: views/click_actions.php:144
+msgid "Import Click Action"
+msgstr "Click Action importieren"
+
+#: views/click_actions.php:148 views/manage_maps.php:75
+msgid "Insert import data here..."
+msgstr "Import-Daten hier einfügen..."
+
+#: views/click_actions.php:160 views/click_actions.php:192
+#: views/manage_maps.php:242
+msgid "Export"
+msgstr "Exportieren"
+
+#: views/click_actions.php:164
+msgid "If you leave the page, all changes won't be saved."
+msgstr ""
+
+#: views/click_actions.php:196
+msgid "Create copy"
+msgstr "Kopie erstellen"
+
+#: views/click_actions.php:200 views/map_builder.php:469
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: views/click_actions.php:204 views/map_builder.php:470
+#: views/map_builder.php:608
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: views/click_actions.php:208
+msgid "Save"
+msgstr "Speichern"
+
+#: views/click_actions.php:221
+msgid "Click Actions"
+msgstr ""
+
+#: views/click_actions.php:221
+msgid "+1 new"
+msgstr "+1 neu"
+
+#: views/click_actions.php:232
+msgid "Enter name here"
+msgstr "Name hier eingeben"
+
+#: views/click_actions.php:245
+msgid "There are no click actions yet."
+msgstr "Es sind noch keine Click Actions vorhanden."
+
+#: views/click_actions.php:247
+msgid "Create first click action"
+msgstr "Erste Click Action erstellen"
+
+#: views/click_actions.php:278
+msgid "Example"
+msgstr "Beispiel"
+
+#: views/click_actions.php:280 views/click_actions.php:282
+#: views/map_builder.php:212 views/map_builder.php:401
+msgid "Hide data table"
+msgstr "Datentabelle verstecken"
+
+#: views/click_actions.php:280
+msgid "edit data table"
+msgstr "Datantabelle bearbeiten"
+
+#: views/click_actions.php:282 views/map_builder.php:211
+#: views/map_builder.php:400
+msgid "Show data table"
+msgstr "Datentabelle anzeigen"
+
+#: views/click_actions.php:288 views/click_actions.php:290
+#: views/map_builder.php:229 views/map_builder.php:231
+msgid "Full Width"
+msgstr "Volle Breite"
+
+#: views/click_actions.php:298 views/map_builder.php:388
+msgid "Update Preview"
+msgstr "Vorschau aktualisieren"
+
+#: views/click_actions.php:308 views/manage_maps.php:186
+#: views/manage_maps.php:228 views/map_builder.php:424
+#: views/map_builder.php:631
+msgid "Region"
+msgid_plural "Regions"
+msgstr[0] "Region"
+msgstr[1] "Regionen"
+
+#: views/click_actions.php:309 views/map_builder.php:430
+#: views/map_builder.php:551
+msgid "Color"
+msgstr "Farbe"
+
+#: views/click_actions.php:310 views/map_builder.php:432
+#: views/map_builder.php:578
+msgid "Click Value"
+msgstr ""
+
+#: views/click_actions.php:338
+msgid "Description"
+msgstr "Beschreibung"
+
+#: views/click_actions.php:341
+msgid "Add a description here..."
+msgstr "Eine Beschreibung hier eingeben..."
+
+#: views/click_actions.php:350
+msgid "JavaScript"
+msgstr ""
+
+#: views/click_actions.php:381
+msgid "HTML"
+msgstr ""
+
+#: views/click_actions.php:386 views/click_actions.php:406
+#: views/map_builder.php:322 views/map_builder.php:339
+msgid "Available Placeholders"
+msgstr "Verfügbare Platzhalter"
+
+#: views/click_actions.php:389 views/map_builder.php:325
+msgid "Placeholder for the generated html of the map. (REQUIRED)"
+msgstr "Platzhalter für das generierte HTML der Karte. (ERFORDERLICH)"
+
+#: views/click_actions.php:392 views/click_actions.php:409
+#: views/map_builder.php:328 views/map_builder.php:342
+msgid "Placeholder for the generated css id."
+msgstr "Platzhalter für die generierte CSS id."
+
+#: views/click_actions.php:401
+msgid "CSS"
+msgstr ""
+
+#: views/manage_maps.php:5 views/map_builder.php:146
+msgid "Add New Map"
+msgstr "Neue Karte hinzufügen"
+
+#: views/manage_maps.php:14
+msgid "Map could not be deleted."
+msgstr "Karte konnte nicht gelöscht werden."
+
+#: views/manage_maps.php:16
+msgid "Map could not be copied."
+msgstr "Karte konnte nicht kopiert werden."
+
+#: views/manage_maps.php:48
+msgid "Import map"
+msgstr "Karte importieren"
+
+#: views/manage_maps.php:51
+msgid "Please pick a data format to import the map."
+msgstr "Bitte ein Daten-Format wählen, um die Karte zu importieren."
+
+#: views/manage_maps.php:53 views/manage_maps.php:96
+msgid "File"
+msgstr "Datei"
+
+#: views/manage_maps.php:62
+msgid "Select a file:"
+msgstr "Eine Datei wählen:"
+
+#: views/manage_maps.php:91
+msgid "Export map"
+msgstr "Karte exportieren"
+
+#: views/manage_maps.php:94
+msgid ""
+"There are two different ways to export a map. The text can be used to copy "
+"the map to the clipboard. The file can be used to store a backup copy of a "
+"map."
+msgstr ""
+"Es gibt zwei verschiedene Wege, um eine Karte zu exportieren. Der Text kann "
+"dazu benutzt werden, um die Karte in die Zwischenablage zu kopieren. Die "
+"Datei kann dazu verwendet werden, um eine Sicherheitskopie abzuspeichern."
+
+#: views/manage_maps.php:103
+msgid "Save map:"
+msgstr "Karte speichern"
+
+#: views/manage_maps.php:104
+msgid "Download"
+msgstr "Herunterladen"
+
+#: views/manage_maps.php:136
+#, php-format
+msgid "Displaying map %1$d of %3$d"
+msgid_plural "Displaying maps %1$d-%2$d of %3$d"
+msgstr[0] "Ansicht der Karte %1$d von %3$d"
+msgstr[1] "Ansicht der Karten %1$d-%2$d von %3$d"
+
+#: views/manage_maps.php:157 views/map_builder.php:208
+msgid "Preview"
+msgstr "Vorschau"
+
+#: views/manage_maps.php:162
+msgid "Map Name"
+msgstr "Kartenname"
+
+#: views/manage_maps.php:163
+msgid "Shortcode"
+msgstr ""
+
+#: views/manage_maps.php:164
+msgid "Last change"
+msgstr "Letzte Änderung"
+
+#: views/manage_maps.php:180
+msgid "Y/m/d g:i:s A"
+msgstr ""
+
+#: views/manage_maps.php:188 views/map_builder.php:425
+msgid "Marker"
+msgid_plural "Markers"
+msgstr[0] "Markierung"
+msgstr[1] "Markierungen"
+
+#: views/manage_maps.php:190
+msgid "Text Marker"
+msgid_plural "Text Markers"
+msgstr[0] "Text Markierung"
+msgstr[1] "Text Markierungen"
+
+#: views/manage_maps.php:202
+msgid "New"
+msgstr "Neu"
+
+#: views/manage_maps.php:222
+#, php-format
+msgid "%s ago"
+msgstr "vor %s"
+
+#: views/manage_maps.php:229
+msgid "Entries in data table"
+msgstr "Einträge in der Datentabelle"
+
+#: views/manage_maps.php:230
+msgid "Click Action"
+msgstr "Click Action"
+
+#: views/manage_maps.php:238
+msgid "More"
+msgstr "Mehr"
+
+#: views/manage_maps.php:243
+msgid "Create a copy"
+msgstr "Eine Kopie erstellen"
+
+#: views/manage_maps.php:260
+msgid "There are no maps yet."
+msgstr "Es sind noch keine Karten vorhanden."
+
+#: views/manage_maps.php:262
+msgid "Create first map"
+msgstr "Erste Karte erstellen"
+
+#: views/manage_maps.php:279
+msgid "« Previous"
+msgstr "« Zurück"
+
+#: views/manage_maps.php:280
+msgid "Next »"
+msgstr "Weiter  »"
+
+#: views/map_builder.php:21
+msgid ""
+"This is the custom template. It is used to edit the HTML, CSS and JavaScript "
+"right from the map builder. It will automatically switch to this template as "
+"soon as you click \"Update template\". You can also activate the mode by "
+"selecting \"custom\" template."
+msgstr ""
+
+#: views/map_builder.php:147
+msgid "Edit Map"
+msgstr "Karte bearbeiten"
+
+#: views/map_builder.php:149
+msgid "Back to All Maps"
+msgstr "Zurück zu Alle Karten"
+
+#: views/map_builder.php:158
+msgid "Add map"
+msgstr "Karte anlegen"
+
+#: views/map_builder.php:163
+msgid "Save map"
+msgstr "Karte speichern"
+
+#: views/map_builder.php:180
+msgid "Enter title here"
+msgstr "Titel hier eingeben"
+
+#: views/map_builder.php:220
+msgid "If a region or marker is being clicked in the preview, then:"
+msgstr ""
+"Wenn eine Region oder Markierung in der Vorschau angeklickt wird, dann:"
+
+#: views/map_builder.php:222
+msgid "Execute Click Action"
+msgstr "Führe Click Action aus"
+
+#: views/map_builder.php:223
+msgid "Open form for editing or adding"
+msgstr "Öffne Formular zum Bearbeiten oder Hinzufügen"
+
+#: views/map_builder.php:248
+msgid "Map Template"
+msgstr "Map Templates"
+
+#: views/map_builder.php:253 views/map_builder.php:285
+msgid "Default template"
+msgstr ""
+
+#: views/map_builder.php:255 views/map_builder.php:286
+msgid "Custom"
+msgstr ""
+
+#: views/map_builder.php:288
+msgid "Saved templates"
+msgstr "Gespeicherte Templates"
+
+#: views/map_builder.php:397
+msgid "Map Elements"
+msgstr ""
+
+#: views/map_builder.php:407
+msgid "Add Region"
+msgstr "Region hinzufügen"
+
+#: views/map_builder.php:408
+msgid "Add Marker"
+msgstr "Markierung hinzufügen"
+
+#: views/map_builder.php:409
+msgid "Add Text"
+msgstr "Text hinzufügen"
+
+#: views/map_builder.php:426 views/map_builder.php:480
+msgid "Text Location"
+msgstr "Lage des Textes"
+
+#: views/map_builder.php:428 views/map_builder.php:521
+msgid "Marker Coordinates"
+msgstr "Koordinaten der Markierung"
+
+#: views/map_builder.php:429 views/map_builder.php:512
+#: views/map_builder.php:562
+msgid "Text Label"
+msgstr ""
+
+#: views/map_builder.php:431 views/map_builder.php:561
+msgid "Tooltip"
+msgstr ""
+
+#: views/map_builder.php:443
+msgid "No entries in table"
+msgstr "Keine Einträge in der Datentabelle"
+
+#: views/map_builder.php:478
+msgid "Region's name"
+msgstr "Name der Region"
+
+#: views/map_builder.php:479
+msgid "Marker Location"
+msgstr "Lage der Markierung"
+
+#: views/map_builder.php:483 views/map_builder.php:484
+msgid "For example: \"Germany\" or \"Asia\""
+msgstr ""
+
+#: views/map_builder.php:486
+msgid "For example: \"Berlin\" or \"New York City\"."
+msgstr ""
+
+#: views/map_builder.php:488
+msgid ""
+"Using text to find the markers location, might cause longer loading time. "
+"Especially if there this a big number of markers, it is recommended to pick "
+"the coordinate mode on the right side instead of text mode."
+msgstr ""
+
+#: views/map_builder.php:500
+msgid "Close"
+msgstr "Schließen"
+
+#: views/map_builder.php:504
+msgid "Search"
+msgstr "Suchen"
+
+#: views/map_builder.php:515
+msgid "This text will be displayed at the given location."
+msgstr ""
+
+#: views/map_builder.php:526
+msgid "Latitude"
+msgstr ""
+
+#: views/map_builder.php:534
+msgid "Longitude"
+msgstr ""
+
+#: views/map_builder.php:541
+msgid ""
+"If there are only a few markers to display, it's is often easier to use the "
+"text mode for markers on the right side."
+msgstr ""
+
+#: views/map_builder.php:544
+msgid "Find coordinates"
+msgstr "Koordinaten finden"
+
+#: views/map_builder.php:562
+msgid " & Tooltip title"
+msgstr "Tooltip Titel"
+
+#: views/map_builder.php:567
+msgid "This text will be displayed at the given location on the map."
+msgstr ""
+
+#: views/map_builder.php:569
+msgid ""
+"It will also be used for the tooltip title. If you want to hide the title, "
+"you might want to try the HTML mode for tooltips which can be activated in "
+"the right column."
+msgstr ""
+
+#: views/map_builder.php:571
+msgid "Tooltip text"
+msgstr "Tooltip Text"
+
+#: views/map_builder.php:572
+msgid "Tooltip (HTML)"
+msgstr ""
+
+#: views/map_builder.php:602
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: views/map_builder.php:605
+msgid "Change"
+msgstr "Ändern"
+
+#: views/map_builder.php:630 views/map_builder.php:672
+#: views/map_builder.php:718 views/map_builder.php:780
+#: views/map_builder.php:809 views/map_builder.php:874
+msgid "Click to toggle"
+msgstr "Klicken zum Umschalten"
+
+#: views/map_builder.php:673
+msgid "Resolution"
+msgstr "Auflösung"
+
+#: views/map_builder.php:684
+msgid "Contintent borders"
+msgstr "Kontinentgrenzen"
+
+#: views/map_builder.php:691
+msgid "Subcontinent borders"
+msgstr "Subkontinentgrenzen"
+
+#: views/map_builder.php:698
+msgid "Country borders"
+msgstr "Ländergrenzen"
+
+#: views/map_builder.php:704
+msgid "Province borders"
+msgstr "Provinzgrenzen"
+
+#: views/map_builder.php:710
+msgid "Metro borders"
+msgstr "Ballungsräume"
+
+#: views/map_builder.php:719
+msgid "Display Mode"
+msgstr "Anzeigemodus"
+
+#: views/map_builder.php:748
+msgid "Markers"
+msgstr "Markierungen"
+
+#: views/map_builder.php:758
+msgid "Use text to find the coordinates"
+msgstr "Benutze Text um Koordinaten zu finden"
+
+#: views/map_builder.php:769
+msgid "Use coordinates"
+msgstr "Benutze Koordinaten"
+
+#: views/map_builder.php:781
+msgid "Marker Styling"
+msgstr "Markierungsstil"
+
+#: views/map_builder.php:782
+msgid "Text Styling"
+msgstr "Text Stil"
+
+#: views/map_builder.php:790
+msgid "Marker Size"
+msgstr "Größe Markierung"
+
+#: views/map_builder.php:791
+msgid "Font size"
+msgstr "Schriftgröße"
+
+#: views/map_builder.php:796
+msgid "Marker Opacity"
+msgstr "Deckkraft Markierung"
+
+#: views/map_builder.php:797
+msgid "Font Opacity"
+msgstr "Schrift-Deckkraft"
+
+#: views/map_builder.php:810
+msgid "Map Styling"
+msgstr "Kartenstil"
+
+#: views/map_builder.php:818
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: views/map_builder.php:825
+msgid "Dataless Region Color"
+msgstr "Regionen ohne Daten"
+
+#: views/map_builder.php:830
+msgid "Height"
+msgstr "Höhe"
+
+#: views/map_builder.php:836
+msgid "Width"
+msgstr "Breite"
+
+#: views/map_builder.php:842
+msgid "Keep aspect ratio"
+msgstr "Seitenverhältnis beibehalten"
+
+#: views/map_builder.php:849
+msgid "Region Interactivity"
+msgstr "Regionen auswählbar"
+
+#: views/map_builder.php:856
+msgid "Border Size"
+msgstr "Rahmenbreite"
+
+#: views/map_builder.php:862
+msgid "Border Color"
+msgstr "Rahmenfarbe"
+
+#: views/map_builder.php:875
+msgid "Tooltip Styling"
+msgstr "Tooltip Stil"
+
+#: views/map_builder.php:884
+msgid "Show tooltips"
+msgstr "Zeige Tooltip"
+
+#: views/map_builder.php:892
+msgid "Trigger"
+msgstr ""
+
+#: views/map_builder.php:901
+msgid "Use HTML"
+msgstr ""
+
+#: views/map_builder.php:909
+msgid "Font Color"
+msgstr "Schriftfarbe"
+
+#: views/map_builder.php:914
+msgid "Font Name"
+msgstr "Schriftart"
+
+#: views/map_builder.php:919
+msgid "Font Size"
+msgstr "Schriftgröße"
+
+#: views/map_builder.php:957
+msgid ""
+"Please note that your custom template will be overwritten by the new "
+"selected template. Do you want to proceed?"
+msgstr ""
+
+#: views/preview.php:22
+msgid "Ooops...Could not find the click action."
+msgstr "Oooops...Konnte Click Action nicht finden."
+
+#~ msgid "All Click Actions"
+#~ msgstr "Alle Click Actions"
+
+#~ msgid "Available Variables"
+#~ msgstr "Verfügbare Variablen"
+
+#~ msgid "Click Value of the clicked region or marker."
+#~ msgstr "Click Value der angeklickten Region oder Markierung."
+
+#~ msgid "The row number in the Data Table."
+#~ msgstr "Die Zeilennummer in der Datentabelle."
+
+#~ msgid "All other Click Values."
+#~ msgstr "Alle anderen Click Values."
+
+#~ msgid "The generated value of the {cssid} placeholder in the HTML and CSS."
+#~ msgstr "Der erzeugte Wert für den {cssid} Platzhalter im HTML und CSS."
+
+#~ msgid ""
+#~ "Storage specifically for the clicked region/marker. Keeps the value until "
+#~ "the next click. Initial value is null."
+#~ msgstr ""
+#~ "Speicher speziell für die angeklickte Region/Markierung. Behält den Wert "
+#~ "bis zum nächsten Anklicken. Anfangswert ist null."
+
+#~ msgid ""
+#~ "Storage available to all clicked regions/markers. Keeps the value until "
+#~ "the next click. Initial value is null."
+#~ msgstr ""
+#~ "Speicher für alle Regionen/Markierungen. Behält den Wert bis zum nächsten "
+#~ "Anklicken. Anfangswert ist null."
+
+#~ msgid "jQuery library. Version depends on the installed Wordpress version."
+#~ msgstr ""
+#~ "jQuery Bibliothek. Die Version hängt von der installierten Wordpress-"
+#~ "Version ab."
+
+#~ msgid "None"
+#~ msgstr "Keine"
+
+#~ msgid "import"
+#~ msgstr "Importieren"
+
+#~ msgid "Copy"
+#~ msgstr "Kopieren"
+
+#~ msgid "Map"
+#~ msgstr "Karte"
+
+#~ msgid "Maps"
+#~ msgstr "Karten"
+
+#~ msgid "Hide"
+#~ msgstr "Minimieren"
+
+#~ msgid "No maps were found."
+#~ msgstr "Es wurden keine Karten gefunden."
+
+#~ msgid "export map"
+#~ msgstr "Karte exportieren"
+
+#~ msgid "Changed"
+#~ msgstr "Geändert am"
+
+#~ msgid "East Timor"
+#~ msgstr "Osttimor"
+
+#~ msgid "Netherlands Antilles"
+#~ msgstr "Niederländische Antillen"
+
+#~ msgid "Burma"
+#~ msgstr "Burma"
+
+#~ msgid "Serbia and Montenegro"
+#~ msgstr "Serbien und Montenegro"
+
+#~ msgid "German Democratic Republic"
+#~ msgstr "Deutsche Demokratische Republik"
+
+#~ msgid "Neutral Zone"
+#~ msgstr "neutrale Zone"
+
+#~ msgid "USSR"
+#~ msgstr "USSR"
+
+#~ msgid "South Yemen"
+#~ msgstr "Südjemen"
+
+#~ msgid "Yugoslavia"
+#~ msgstr "Jugoslawien"
+
+#~ msgid "Zaire"
+#~ msgstr "Zaire"
+
+#~ msgid "United States Minor Outlying Islands"
+#~ msgstr "United States Inselterritorien"
